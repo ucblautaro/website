@@ -44,6 +44,40 @@ var events = [
   {'Date': new Date(2018, 10-1, 6), 'Title': 'Conferencia de evangelismo 14hrs','Link':'http://ieucblautaro.cl'},
   {'Date': new Date(2018, 10-1, 7), 'Title': 'Conferencia de evangelismo 14hrs','Link':'http://ieucblautaro.cl'},
 
+  
+  //                                                    NOVIEMBRE
+  //ESC DOM
+  {'Date': new Date(2018, 11-1, 4), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2018, 11-1, 11), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2018, 11-1, 18), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2018, 11-1, 25), 'Title': 'Escuela dominical y CFT 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+    //ORAC
+  {'Date': new Date(2018, 11-1, 7), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2018, 11-1, 14), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2018, 11-1, 21), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2018, 11-1, 28), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  //OTROS
+  {'Date': new Date(2018, 11-1, 17), 'Title': 'Encuentro familiar en UCB Bethel y Encuentro de jóvenes en UCB Pitrufquén','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2018, 11-1, 30), 'Title': 'CONFERENCIA CAMINAMOS POR UNA SENDA MARCADA - Desde las 18hrs.','Link':'http://ieucblautaro.cl'},
+    
+  
+  
+  //                                                    DICIEMBRE
+  //ESC DOM
+  {'Date': new Date(2018, 12-1, 2), 'Title': 'CONFERENCIA CAMINAMOS POR UNA SENDA MARCADA - Desde las 10hrs. (No hay escuela dominical)','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2018, 12-1, 9), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2018, 12-1, 16), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2018, 12-1, 23), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2018, 12-1, 30), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+    //ORAC
+  {'Date': new Date(2018, 12-1, 5), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2018, 12-1, 12), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2018, 12-1, 19), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2018, 12-1, 26), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  //OTROS
+  {'Date': new Date(2018, 12-1, 2), 'Title': 'CONFERENCIA CAMINAMOS POR UNA SENDA MARCADA- Desde las 10hrs.','Link':'http://ieucblautaro.cl'},
+    
+ 
 ];
 var settings = {};
 var element = document.getElementById('caleandar');
