@@ -1,3 +1,4 @@
+
 .cld-main{
   width: 400px;
 }
@@ -15,7 +16,12 @@
     max-width: 300px;
     margin: auto;
     overflow: hidden;
-    color: #FFFFFF;
+    color: #000000;
+    font-family: 'Arial Narrow';
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    /*NOMBRE DEL MES*/
   }
   .cld-datetime .today{
     position: relative;
@@ -30,19 +36,26 @@
     width: 20px;
     height: 20px;
     margin-top: 2px;
+    
+    
 
   }
   .cld-nav:hover{
     cursor: pointer;
+  
   }
   .cld-nav:hover svg{
-      fill: #FFFFFF;
+      fill: #000000;
+      transition: .3s;
+      
   }
   .cld-rwd{
     float: left;
+    
   }
   .cld-fwd{
     float: right;
+    
   }
     .cld-nav svg:hover{
 
@@ -51,7 +64,9 @@
   padding-left: 0;
   
 }
-  .cld-label, .cld-day{
+  .cld-label, .cld-day{ /*Nombre de los días (LUN, MAR, MIE*/
+    font-family: 'Arial';
+    font-size: 18px;
     box-sizing: border-box;
     display: inline-block;
     width: 14.28%;
@@ -59,16 +74,19 @@
 
   }
   .cld-day{
+    font-family: 'Arial Narrow';
+    font-style: italic;
+    font-size: 18px;
     border: 1px solid none; /*Borde*/
     padding: 1px;
-    color: #FFFFFF;         /*letra*/
+    color: #000000;         /*letra*/
 
   }
   .cld-day.today .cld-number{
     /*background: #AA0000;
     color: #fff;*/
-    background: #fff;
-    color: #000000;
+    background: #000;
+    color: #fff;
 
   }
   .cld-day.disableDay{
@@ -76,26 +94,32 @@
   }
   .cld-day.nextMonth, .cld-day.prevMonth{
     opacity: 0.33;
+
   }
     .cld-number{
       position: relative;
       margin: 0;
       padding: 10px;
+
     }
       .cld-title{
+/*CARD*/
+        box-shadow:0px 0px 2px #000;
+
         position: absolute;
         z-index: 5;
         margin-top: 20px;
         height: 40px;
         display: none;
         top: 30px;
-        left: 20px;
+        left: 30px;
         padding: 10px 10px;
         background: #fff;
         white-space: nowrap;
         border: 1px solid #ccc;
         border-radius: 5px;
         font-size: 12px;
+        text-shadow: none;
         transition: .2s;
 
       }
@@ -124,25 +148,30 @@
         font-weight: bold;
         color: #AA0000;
         background: #AA0000;
-        color: #FFFFFF;
+        color: #fff;
         transition: .2s;
       }
       .cld-number.eventday:hover{ /*Hover de dia evento*/
         cursor: pointer;
         background: #eee;
         color: #AA0000;
+        box-shadow: 2px 2px 2px #000;
+        text-shadow: none;
         transition: .2s;
+        
 
       }
       .today .cld-number.eventday:hover{
-        background: #AA0000;
-        color: #FFFFFF;
+        background: #eee;
+        color: #AA0000;
         transition: .2s;
 
       }
       .today .cld-number.eventday{
-        background: #FFFFFF;
-        color: #AA0000;
+        border-style: solid;
+        border-color:#AA0000;      /*Si el evento es el día actual*/
+        background: #000;
+        color: #fff;
         transition: .2s;
 
       }
