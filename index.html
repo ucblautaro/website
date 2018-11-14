@@ -1,524 +1,332 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-<head>
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Iglesia UCB Lautaro</title>
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Iglesia UCB Lautaro</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
 
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+			<!-- Stylesheets -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+			<script src="js/jspdf.min.js"></script>
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="caleandar-master/css/theme2.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-    <link rel="stylesheet" href="caleandar-master/css/demo.css"/>
+	  		<link rel="stylesheet" href="css/imagen.css"/>
+    		
+			<link rel="stylesheet" href="caleandar-master/css/demo.css"/>
+    		<link rel="stylesheet" href="caleandar-master/css/theme2.css"/>
+			<link rel="stylesheet" href="caleandar-master/css/demo.css"/>
 
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/jquery-ui.css">				
+			<link rel="stylesheet" href="css/nice-select.css">							
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">				
+			<link rel="stylesheet" href="css/main2.css">
+		</head>
+		<body>	
+			<header id="header">
+				<div class="header-top">
+					<div class="container">
+				  		<div class="row justify-content-center">
+						      <div id="logo">
+						        <a href="index.html"><img src="img/logo2.png" width="312" height=73" alt="" title="" /></a>
+						      </div>
+				  		</div>			  					
+					</div>
+				</div>
+				<div class="container main-menu">
+					<div class="row align-items-center justify-content-center d-flex">			
+				      <nav id="nav-menu-container">
+				        <ul class="nav-menu">
+				          <li><a href="index.html">PAGINA PRINCIPAL</a></li>
+				          <li><a href="#02">ACERCA DE NOSOTROS</a></li>
+				          <li><a href="https://opticabiblica.blogspot.com/">ÓPTICA BÍBLICA</a></li>
+				          <li><a href="galeria.html">GALERÍA DE IMÁGENES</a></li>			  			          					          		          
+				          <li><a href="https://www.youtube.com/channel/UCkqSSRMCHBpBLnQJ8UZ3U8A">VIDEOS</a></li>
+				        </ul>
+				      </nav><!-- #nav-menu-container -->					      		  
+					</div>
+				</div>
+			</header><!-- #header -->
+			
+			<!-- start banner Area -->
 
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
+			<section class="banner-area">		
+				<div class="container">
+					<div class="row fullscreen align-items-center justify-content-between">
+						<div class="col-lg-12 banner-content">
+							<h6 class="text-white txt-prin">IGLESIA EVANGÉLICA UNIÓN DE CENTROS BIBLICOS LAUTARO</h6>
+							<h1 class="text-white txt-prin">Bienvenido</h1>
+							<p class="text-white">
+								
+							</p>
+							<a href="https://opticabiblica.blogspot.com/" class="primary-btn text-uppercase">ÓPTICA BÍBLICA</a>
+							<a href="#" class="primary-btn text-uppercase">VER ÚLTIMO SERMÓN</a>
 
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="icoucb.ico" type="image/x-icon">
-    <link rel="icon" href="icoucb.ico" type="image/x-icon">
+							
+						</div>
+					</div>
+				</div>					
+			</section>
+			<!-- End banner Area -->
 
-</head>
+			<!-- Start home-about Area -->
+			<section class="home-about-area section-gap">
+				<div class="container">
+						<!--VISOR DE LA IMAGEN-->
+						<div id="mimodal" class="modal fade" role="dialog">
+						  <div class="modal-dialog">
+						      <center><img id="mi_img" src="" class="modal-content recibir-imagen"></center>
+						      <center>     <div class="modal-footer"><p id="txt"><strong class="texto-imagen"></strong></p></div>
+						  	  </center>
+						  </div>
+						</div>
+						<!--CIERRA VISOR DE IMAGEN-->
+				</div>
+				<div class="container">  
+						  
+				<center><h1>Actividades calendarizadas</h1></center>                  
+					<div class="row align-items-center">
+						<div class="col-lg-7 home-about-left">
+							<div class="single-blog">
+								<center>
+								<div class="thumb">
+									<a href="http://www.conferenciaporunasendamarcada.cl/">Ir a sitio web conferencia</a><br><br>
+									
 
+									<img title="Conferencia Caminamos por una senda marcada 2018" style="width: 45%;" class="img-fluid image-responsive imagen" src="https://dl.dropboxusercontent.com/s/3bwslcf6rn2mru5/conferencia.jpg" alt="">								
+								</div><center>
+												
+							</div>
+						</div>
+						<div id="caleandar"></div>
+						
+					</div>
+				</div>	
+			</section>
+			<!-- End home-about Area -->			
 
-<body id="top">
-    
-    <!-- preloader
-    ================================================== 
-    <div id="preloader">
-        <div id="loader" class="dots-jump">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>-->
-
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-
-        <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src="images/logo2.png" alt="Homepage">
-            </a>
-        </div> <!-- end header-logo -->
-
-        <nav class="header-nav">
-
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
-
-            <h3>Navigate to</h3>
-
-            <div class="header-nav__content">
-                
-                <ul class="header-nav__list">
-                    <li><a class="smoothscroll"  href="#home" title="home">Inicio</a></li>
-                    <li><a class="smoothscroll"  href="#about" title="about">Acerca de nosotros</a></li>
-                    <li><a class="smoothscroll"  href="#works" title="services">Actividades</a></li>
-                    <li><a class="smoothscroll"  href="#blog" title="works">Blog del pastor</a></li>
-                    <li><a class="smoothscroll"  href="#contact" title="contact">Contacto</a></li>
-                </ul>
-  
-    
-                <ul class="header-nav__social">
-                    <li>
-                        <a href="https://web.facebook.com/ieucblautaro"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/channel/UCkqSSRMCHBpBLnQJ8UZ3U8A/videos"><i class="fab fa-youtube"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.google.com/maps/place/Iglesia+Uni%C3%B3n+Centros+B%C3%ADblicos+Lautaro/@-38.5253754,-72.4436297,17z/data=!3m1!4b1!4m5!3m4!1s0x966b312439bfffef:0x6a4370d5dca9cbf5!8m2!3d-38.5253754!4d-72.441441"><i class="fas fa-map-marker-alt"></i></a>
-                    </li>
-                </ul>
-
-            </div> <!-- end header-nav__content -->
-
-        </nav> <!-- end header-nav -->
-
-        <a class="header-menu-toggle" href="#0">
-            <span class="header-menu-icon"></span>
-        </a>
-
-    </header> <!-- end s-header -->
-
-
-    <!-- home
-    ================================================== -->
-    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/7.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
-
-        <div class="grid-overlay">
-            <div></div>
-        </div>
-
-        <div class="home-content">
-
-            <div class="row home-content__main">
-
-                <h1>
-                Bienvenido
-                </h1>
-
-                <h3>
-                Iglesia Centros Bíblicos Lautaro
-                </h3>
-
-                <div class="home-content__video">
-                    <a class="video-link" href="https://www.youtube.com/watch?v=E0uRkUFg8Ls" data-lity>
-                        <span class="video-icon"></span>
-                        <span class="video-text">Ver último sermón</span>
-                    </a>
+			<!-- Start menu-area Area -->
+            <section class="menu-area section-gap" id="menu">
+                <div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-70 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">¿Cómo llegar?</h1>
+								<p>Revisa la ubicación en Google Maps</p>
+								<center><div class="single-menu">
+									<div class="title-wrap d-flex justify-content-between">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121.364055873842!2d-72.4436296850192!3d-38.52537537962976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966b312439bfffef%3A0x6a4370d5dca9cbf5!2sIglesia+Uni%C3%B3n+Centros+B%C3%ADblicos+Lautaro!5e0!3m2!1ses!2scl!4v1534033655556" width="900" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</div>																		
+								</div></center>
+							</div>
+						</div>
+					</div>	          
                 </div>
-
-                <div class="home-content__button">
-                    <a href="#about" class="smoothscroll btn btn--primary btn--large">
-                        ACERCA DE NOSOTROS
-                    </a>
-                    <a href="https://opticabiblica.blogspot.com/"><i class="btn btn--large">ÓPTICA BÍBLICA</i></a>
-                </div>
-
-            </div> <!-- end home-content__main -->
-
-            <div class="home-content__scroll">
-                <a href="#about" class="scroll-link smoothscroll">
-                    DESPLAZAR HACIA ABAJO
-                </a>
-            </div>
-
-        </div> <!-- end home-content -->
-
-        <ul class="home-social">
-            <li>
-                <a href="https://web.facebook.com/ieucblautaro"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/channel/UCkqSSRMCHBpBLnQJ8UZ3U8A"><i class="fab fa-youtube" aria-hidden="true"></i><span>Youtube</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-            <li>
-                <a href="https://www.google.com/maps/place/Iglesia+Uni%C3%B3n+Centros+B%C3%ADblicos+Lautaro/@-38.5253754,-72.4436297,17z/data=!3m1!4b1!4m5!3m4!1s0x966b312439bfffef:0x6a4370d5dca9cbf5!8m2!3d-38.5253754!4d-72.441441"><i class="fas fa-map-marker-alt"></i><span>Maps</span></a>
-            </li>
-        </ul> <!-- end home-social -->
-
-    </section> <!-- end s-home -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id="about" class="s-about target-section">
-
-        <div class="row section-header bit-narrow" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">ACERCA DE NOSOTROS</h3>
-                <h5>
-                La obra en Lautaro comenzó en la casa del hermano (pastor) Pedro Millán († 2017) y la hermana Anatilde Arias, aun cuando el templo no se construía. La corporación Centros Bíblicos quería levantar un templo en Lautaro para lo cual adquirió la mitad del sitio donde vivían los hermanos Millán, el día 14 de Abril de 1994. El día 28 de Agosto de 1999 se abre el templo Unión Centro Bíblico Lautaro con escuela dominical en la mañana y añadiéndose con el paso del tiempo las reuniones de sociedad femenina, cultos de oración y estudio bíblico. <br><br>
-
-                Posteriormente, vendrían varios hermanos (pastores/misioneros) que nos estuvieron ayudando en la dirección y exposición de las Escrituras.  Así, tuvimos entre nosotros al Hno. Freddy Valette y su esposa Sherry, al  Hno. Juan Prado y su esposa  Helena, al Hno. Hartmut Spanagel y su esposa Magdalena, al Hno. Dieter y su esposa Elisabeth. El Hno.  Víctor y su esposa Myrian, al Hno. César Sanhueza y su esposa Elizabeth, y el Hno. David Flinck y su esposa Kristy. También estuvieron con nosotros en calidad de alumnos del Instituto Bíblico (ICAT), el Hno. Marcelo Figueroa y el Hno. Mario Illesca, ambos hoy en día, pastores de la IEUCB. 
-                </h5><br>
-                <div class="row">
-
-                   
-                    <img style="margin-left: 120px;" class="imgequipo col-md-three" width="300" src="https://dl.dropboxusercontent.com/s/3nig9ecrfmgppzu/Imagen5.png?dl=0" alt="">
-                    <img class="imgequipo col-md-three" width="300" src="https://dl.dropboxusercontent.com/s/ti7i5f5d8xavsoo/Imagen6.png?dl=0" alt="">
-                    <img class="imgequipo col-md-three" width="300" src="https://dl.dropboxusercontent.com/s/5os7k0qcou9psw1/Imagen7.png?dl=0" alt="">
-                </div>
-                <div class="row">
-                    <h2 style="margin-left: 120px;" class="col-md-three">Hno. Joel Torres</h2>
-                    <h2 style="margin-left: 20px;" class="col-md-three">Hno. Hans Topp</h2>
-                    <h2 class="col-md-three">Hno. Germán Estobar</h2>
-                </div>
-                <h5>
-                Desde el año 2013 a la actualidad, la obra está a cargo del pastor Joel Torres, junto al equipo pastoral compuesto también por los ancianos Hans Topp y el hermano Germán Estobar. También, y como parte del equipo de enseñanza de la iglesia, está nuestra hermana Patricia Vega, quien ha sido durante el inicio de la obra, la profesora de nuestra clase de niños.</h5><br><br>
-            </div>
-        </div> <!-- end section-header -->
-
-        <section class="s-works">
-                <div class="row section-header has-bottom-sep narrow target-section" data-aos="fade-up">
-                    <div class="col-full">
-                        <h3 class="subhead">CALENDARIO</h3>
-                        <h1 class="display-1">
-                        Actividades calendarizadas
-                        </h1>
-                    </div>
-                </div><br>
-
-                <div class="row" data-aos="fade-up">
-                    <div class="col-md-two">
-                        
-                        <div style="margin-left: 30px;" id="caleandar">
-                            
-                        </div>
-                    </div>
-                    <div class="col-md-two">
-                    <img width="500" style="margin-left: 120px;" src="https://dl.dropboxusercontent.com/s/9kaue6bizrxz9z0/IMG_5118.JPG?dl=0" 
-                                         srcset="https://dl.dropboxusercontent.com/s/l8vw0g2futoy40f/evangelismo.jpeg?dl=0" alt="">
-                    </div>
-                </div>
-        </section>
-
-
-    <!-- works
-    ================================================== -->
-        <section id="works" class="s-works target-section">
-
-        <div class="row section-header has-bottom-sep narrow target-section" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">ACTIVIDADES</h3>
-                <h1 class="display-1">
-                Resumen de actividades recientes
-                </h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row masonry-wrap">
-
-            <div class="masonry">
-    
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="https://dl.dropboxusercontent.com/s/9kaue6bizrxz9z0/IMG_5118.JPG?dl=0" class="thumb-link" title="" data-size="1050x700">
-                                <img src="https://dl.dropboxusercontent.com/s/9kaue6bizrxz9z0/IMG_5118.JPG?dl=0" 
-                                     srcset="https://dl.dropboxusercontent.com/s/9kaue6bizrxz9z0/IMG_5118.JPG?dl=0, https://dl.dropboxusercontent.com/s/9kaue6bizrxz9z0/IMG_5118.JPG?dl=0" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Ideología de género 
-                            </h3>
-                            <p class="item-folio__cat">
-                                Taller
-                            </p>
-                        </div>
-
-                        <a href="#home" class="item-folio__project-link" title="imagen">
-                            <i class="icon-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>El pasado sábado 4 de Agosto el pastor Iván Reyes estuvo hablando sobre este tema en nuestro templo.</p>
-                        </div>
-
-                    </div>
-                </div> <!-- end masonry__brick -->
-    
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="https://dl.dropboxusercontent.com/s/fcnmb2rtri1dey1/IMG_3262.JPG?dl=0" class="thumb-link" title="" data-size="1050x700">
-                                <img src="https://dl.dropboxusercontent.com/s/fcnmb2rtri1dey1/IMG_3262.JPG?dl=0" 
-                                     srcset="https://dl.dropboxusercontent.com/s/fcnmb2rtri1dey1/IMG_3262.JPG?dl=0 1x, https://dl.dropboxusercontent.com/s/fcnmb2rtri1dey1/IMG_3262.JPG?dl=0 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Encuentro de jóvenes UCB distrito Araucanía
-                            </h3>
-                            <p class="item-folio__cat">
-                                Sábado 22 de Abril
-                            </p>
-                        </div>
-
-                        <a href="#home" class="item-folio__project-link" title="imagen">
-                            <i class="icon-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Primer encuentro de jóvenes UCB del distrito Araucanía 2018, realizado en la iglesia UCB Trigales con la exposición del pastor Ricardo Daglio.</p>
-                        </div>
-
-                    </div>
-                </div> <!-- end masonry__brick -->
-        
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="https://dl.dropboxusercontent.com/s/95cmtv2vpthpirs/IMG_4227.JPG?dl=0" class="thumb-link" title="" data-size="1050x700">
-                                <img src="https://dl.dropboxusercontent.com/s/95cmtv2vpthpirs/IMG_4227.JPG?dl=0"
-                                     srcset="https://dl.dropboxusercontent.com/s/95cmtv2vpthpirs/IMG_4227.JPG?dl=0 1x, https://dl.dropboxusercontent.com/s/95cmtv2vpthpirs/IMG_4227.JPG?dl=0 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Consejería bíblica
-                            </h3>
-                            <p class="item-folio__cat">
-                                Taller
-                            </p>
-                        </div>
-
-                        <a href="#home" class="item-folio__project-link" title="imagen">
-                            <i class="icon-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>El pasado sábado 23 y domingo 24 de Junio tuvimos una jornada de capacitación respecto al tópico de la consejería bíblica en la iglesia local. La exposición estuvo a cargo del pastor Christian Aracena de la Iglesia Bíblica Roca Grande de Santiago.</p>
-                        </div>
-
-                    </div>
-                </div> <!-- end masonry__brick -->
-        
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="https://dl.dropboxusercontent.com/s/n9oh73obntx6ugw/IMG_4443.JPG?dl=0" class="thumb-link" title="" data-size="1050x700">
-                                <img src="https://dl.dropboxusercontent.com/s/n9oh73obntx6ugw/IMG_4443.JPG?dl=0" 
-                                     srcset="https://dl.dropboxusercontent.com/s/n9oh73obntx6ugw/IMG_4443.JPG?dl=0 1x, https://dl.dropboxusercontent.com/s/n9oh73obntx6ugw/IMG_4443.JPG?dl=0 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Orando las escrituras
-                            </h3>
-                            <p class="item-folio__cat">
-                                Taller 
-                            </p>
-                        </div>
-
-                        <a href="#home" class="item-folio__project-link" title="imagen">
-                            <i class="icon-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Desde el mes de Julio comenzamos el taller "Orando las escrituras" impartido por nuestro hermano Germán Estobar, en donde nos reunimos al rededor de una taza de té a estudiar juntos acerca de la oración.</p>
-                        </div>
-
-                    </div>
-                </div> <!-- end masonry__brick -->
-    
-            </div> <!-- end masonry -->
-
-        </div> <!-- end masonry-wrap -->
-
-    </section> <!-- end s-works -->
-
-
-    <!-- clients
-    ================================================== -->
-    <section id="blog" class="s-clients target-section darker">
-
-        
-
-        <div class="row section-header text-center narrow" data-aos="fade-up">
-            <div class="col-full">
-                <h3 href="https://opticabiblica.blogspot.com/" class="subhead">Visite el blog del pastor</h3>
-                
-                <a href="https://opticabiblica.blogspot.com/"><h1 href="https://opticabiblica.blogspot.com/" class="display-1">"Óptica Bíblica"</h1></a>
-
-            </div>
-        </div> <!-- end section-header -->
-        
-        <div class="row clients-wrap" data-aos="fade-up">
-            
-            <center><p>“Se te requiere que creas, prediques y enseñes lo que la Biblia dice que es verdad, no lo que quieres que la Biblia diga que es la verdad.” R.C. Sproul</p></center>
-            <a><center><img src="images/optica.png" srcset="images/optica.png" href="https://opticabiblica.blogspot.com/">
-            </center></a>
-            
-
-
-        </div>
-        <!--<div class="grid-overlay">
-            <div></div>
-        </div>-->
-    </section> <!-- end s-clients -->
-
-
-    <!-- testimonies
-    ================================================== -->
-    <section class="s-testimonials">
-
-        <div data-aos="fade-up"><h1 class="display-1">¿Cómo llegar?</h1><h5><span class="fas fa-map-marker-alt"></span> Revisa la ubicación en Google Maps</h5></div>
-
-        <div class="row testimonials narrow">
-
-            <div class="col-full testimonials__slider" data-aos="fade-up">
-
-                <div class="testimonials__slide">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121.364055873842!2d-72.4436296850192!3d-38.52537537962976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966b312439bfffef%3A0x6a4370d5dca9cbf5!2sIglesia+Uni%C3%B3n+Centros+B%C3%ADblicos+Lautaro!5e0!3m2!1ses!2scl!4v1534033655556" width="900" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div> <!-- end testimonials__slide -->
-
-                
-                
-            </div> <!-- end testimonials__slider -->
-
-        </div> <!-- end testimonials -->
-
-    </section> <!-- end s-testimonials -->
-
-
-    <!-- contact
-    ================================================== -->
-    <section id="contact" class="s-contact target-section">
-
-        <div style="margin-top: -20px" class="row contact-main" data-aos="fade-up">
-            <h3 class="subhead">CONTACTO</h3>
-            <div class="col-full">
-                <p class="contact-email">
-                    <a href="mailto:#0">ieucblautaro@gmail.com</a>
-                </p>
-                <p class="contact-address">
-                Aníbal Pinto #857 <br>
-                Lautaro, IX Región de la Araucanía
-                </p>
-                <!--<p class="contact-numbers">
-                +1 (917) 123 456 &nbsp; +1 (917) 333 987
-                </p>-->
-
-                <ul class="contact-social">
-                    <li>
-                        <a href="https://web.facebook.com/ieucblautaro"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/channel/UCkqSSRMCHBpBLnQJ8UZ3U8A/videos"><i class="fab fa-youtube"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.google.com/maps/place/Iglesia+Uni%C3%B3n+Centros+B%C3%ADblicos+Lautaro/@-38.5253754,-72.4436297,17z/data=!3m1!4b1!4m5!3m4!1s0x966b312439bfffef:0x6a4370d5dca9cbf5!8m2!3d-38.5253754!4d-72.441441"><i class="fas fa-map-marker-alt"></i></a>
-                    </li>
-
-                </ul>
-            </div>
-        </div>
-
-    </section> <!-- end s-contact -->
-
-
-    <!-- footer
-    ================================================== -->
-    <footer>
-        <!--<div class="row">
-            <div class="col-full ss-copyright">
-                <span>© Copyright Sublime 2018</span> 
-                <span>Design by <a href="https://www.styleshout.com/">Styleshout</a></span>
-            </div>
-        </div>-->
-
-        <div class="ss-go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top">Regresar arriba</a>
-        </div>
-    </footer>
-
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div> <!-- end photoSwipe background -->
-
-
-    <!-- Java Script
-    ================================================== -->
-
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
-    <script type="text/javascript" src="caleandar-master/js/caleandar.js"></script>
-    <script type="text/javascript" src="caleandar-master/js/demo.js"></script>
-
-
-    
-
-</body>
+            </section>
+            <!-- End menu-area Area -->			
+
+			<!-- Start reservation Area -->
+			<section id="02" class="reservation-area section-gap relative">
+				
+
+				<div class="overlay overlay-bg"></div>
+				<div class="container">
+
+					<div class="row justify-content-between align-items-center">
+
+						<div class="col-lg-6 reservation-left">
+							
+							<h1 class="text-white">Acerca de nosotros</h1>
+							<p class="text-white pt-20">
+								La obra en Lautaro comenzó en la casa del hermano (pastor) Pedro Millán <br>(† 2018) y la hermana Anatilde Arias, aun cuando el templo no se construía. La corporación Centros Bíblicos quería levantar un templo en Lautaro para lo cual adquirió la mitad del sitio donde vivían los hermanos Millán, el día 14 de Abril de 1994. El día 28 de Agosto de 1999 se abre el templo Unión Centro Bíblico Lautaro con escuela dominical en la mañana y añadiéndose con el paso del tiempo las reuniones de sociedad femenina, cultos de oración y estudio bíblico. 
+								<br><br>
+								Posteriormente, vendrían varios hermanos (pastores/misioneros) que nos estuvieron ayudando en la dirección y exposición de las Escrituras. Así, tuvimos entre nosotros al Hno. Freddy Valette y su esposa Sherry, al Hno. Juan Prado y su esposa Helena, al Hno. Hartmut Spanagel y su esposa Magdalena, al Hno. Dieter y su esposa Elisabeth. El Hno. Víctor y su esposa Myrian, al Hno. César Sanhueza y su esposa Elizabeth, y el Hno. David Flinck y su esposa Kristy. También estuvieron con nosotros en calidad de alumnos del Instituto Bíblico (ICAT), el Hno. Marcelo Figueroa y el Hno. Mario Illesca, ambos hoy en día, pastores de la IEUCB.
+								<br><br>
+								Desde el año 2013 a la actualidad, la obra está a cargo del pastor Joel Torres, junto al equipo pastoral compuesto también por los ancianos Hans Topp y el hermano Germán Estobar. También, y como parte del equipo de enseñanza de la iglesia, está nuestra hermana Patricia Vega, quien ha sido durante el inicio de la obra, la profesora de nuestra clase de niños.
+							</p>
+						</div>
+						
+						<div class="col-lg-6 reservation-right">
+							<center><h1 class="text-white">Equipo pastoral</h1></center><br>
+							<img class="col reservation-right"  src="img/lideres.png">							
+						</div>
+
+					</div>
+				</div>	
+			</section>
+			<!-- End reservation Area -->
+			
+				
+
+			<!-- Start blog Area -->
+			<section class="blog-area section-gap" id="blog">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-70 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Resumen de actividades recientes</h1>
+								<p></p>
+							</div>
+						</div>
+					</div>					
+					<div class="row">
+						<div class="col-lg-3 col-md-6 col-sm-6 single-blog">
+							<div class="thumb">
+								<img class="img-fluid image-responsive imagen" src="https://dl.dropboxusercontent.com/s/n9oh73obntx6ugw/IMG_4443.JPG" title="Taller 'Orando las escrituras'">								
+							</div>
+							<p class="date">Julio 2018</p>
+							<a><h4>Taller: Orando las escrituras</h4></a>
+							<p>
+								Desde el mes de Julio comenzamos el taller "Orando las escrituras" impartido por nuestro hermano Germán Estobar, en donde nos reunimos al rededor de una taza de té a estudiar juntos acerca de la oración
+							</p>
+							<!--<div class="meta-bottom d-flex justify-content-between">
+								<p><span class="lnr lnr-heart"></span> 15 Likes</p>
+								<p><span class="lnr lnr-bubble"></span> 02 Comments</p>
+							</div>	-->								
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 single-blog">
+							<div class="thumb">
+								<img class="img-fluid image-responsive imagen" src="https://dl.dropboxusercontent.com/s/95cmtv2vpthpirs/IMG_4227.JPG" title="Taller 'Consejería Bíblica en la iglesia local'">								
+							</div>
+							<p class="date">Junio 2018</p>
+							<a ><h4>Consejería Bíblica en la iglesia local</h4></a>
+							<p>
+								El pasado sábado 23 y domingo 24 de Junio tuvimos una jornada de capacitación respecto al tópico de la consejería bíblica en la iglesia local. La exposición estuvo a cargo del pastor Christian Aracena de la Iglesia Bíblica Roca Grande de Santiago.
+							</p>
+															
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 single-blog">
+							<div class="thumb">
+								<img class="img-fluid image-responsive imagen" src="https://dl.dropboxusercontent.com/s/fcnmb2rtri1dey1/IMG_3262.JPG" title="Encuentro de jóvenes distrito Araucanía">								
+							</div>
+							<p class="date">22 de Abril</p>
+							<a ><h4>Encuentro de jóvenes distrito Araucanía</h4></a>
+							<p>
+								Primer encuentro de jóvenes UCB del distrito Araucanía 2018, realizado en la iglesia UCB Trigales con la exposición del pastor Ricardo Daglio.
+							</p>
+															
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 single-blog">
+							<div class="thumb">
+								<img class="img-fluid image-responsive imagen" src="https://dl.dropboxusercontent.com/s/9kaue6bizrxz9z0/IMG_5118.JPG" title="Taller de idelogía de género">								
+							</div>
+							<p class="date">4 de Agosto</p>
+							<a ><h4>Taller de idelogía de género</h4></a>
+							<p>
+								El pasado sábado 4 de Agosto el pastor Iván Reyes estuvo exponiendo sobre este tema en nuestro templo.
+							</p>
+															
+						</div>							
+					</div>
+				</div>	
+			</section>
+			<!-- End blog Area -->							
+
+			<!-- start footer Area -->		
+			<footer class="footer-area">
+				<div class="footer-widget-wrap">
+					<div class="container">
+						<div class="row section-gap">
+							<div class="col-lg-4  col-md-6 col-sm-6">
+								<div class="single-footer-widget">
+									<h4>Servicios</h4>
+									<ul class="hr-list">
+										<li class="d-flex justify-content-between">
+											<span>Domingo</span> <span>10:30 hrs. - Escuela dominical</span>
+										</li>
+										<li class="d-flex justify-content-between">
+											<span>Miércoles</span> <span>20:00 hrs. - Culto de oración</span>
+										</li>																				
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-4  col-md-6 col-sm-6">
+								<div class="single-footer-widget">
+									<h4>Contacto</h4>
+									<p>
+										Nuestro correo electrónico:
+									</p>
+									<p class="number">
+										ieucblautaro@gmail.com
+									</p>
+								</div>
+							</div>						
+							<div class="col-lg-4  col-md-6 col-sm-6">
+								<div class="single-footer-widget">
+									<h4>Dirección</h4>
+									<p>Aníbal Pinto #857 Lautaro, IX Región de la Araucanía</p>
+									<div class="d-flex flex-row" id="mc_embed_signup">
+
+
+										  
+									</div>
+								</div>
+							</div>						
+						</div>					
+					</div>					
+				</div>
+				<div class="footer-bottom-wrap">
+					<div class="container">
+						<div class="row footer-bottom d-flex justify-content-between align-items-center">
+							<p class="col-lg-8 col-mdcol-sm-6 -6 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+							<ul class="col-lg-4 col-mdcol-sm-6 -6 social-icons text-right">
+	                            <li><a href="https://www.facebook.com/ieucblautaro/"><i class="fa fa-facebook"></i></a></li>
+	                            <li><a href="https://www.youtube.com/channel/UCkqSSRMCHBpBLnQJ8UZ3U8A"><i class="fa fa-youtube"></i></a></li>
+          
+	                        </ul>
+						</div>						
+					</div>
+				</div>
+			</footer>
+			<!-- End footer Area -->	
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="js/popper.min.js"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>			
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>		
+ 			<script src="js/jquery-ui.js"></script>					
+  			<script src="js/easing.min.js"></script>			
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.min.js"></script>	
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>						
+			<script src="js/jquery.nice-select.min.js"></script>					
+			<script src="js/owl.carousel.min.js"></script>			
+            <script src="js/isotope.pkgd.min.js"></script>								
+			<script src="js/mail-script.js"></script>	
+			<script src="js/main.js"></script>	
+
+			<script src="js/imagen.js"></script>
+
+			<script type="text/javascript" src="caleandar-master/js/caleandar.js"></script>
+    		<script type="text/javascript" src="caleandar-master/js/demo.js"></script>
+
+    		
+
+
+		</body>
+	</html>
