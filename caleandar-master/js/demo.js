@@ -51,7 +51,7 @@ var events = [
   {'Date': new Date(2019, 4-1, 28), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
   
   {'Date': new Date(2019, 4-1, 3), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
-  {'Date': new Date(2019, 4-1, 19), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 4-1, 10), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
   {'Date': new Date(2019, 4-1, 17), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
   {'Date': new Date(2019, 4-1, 24), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
   
