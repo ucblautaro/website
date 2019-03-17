@@ -55,7 +55,7 @@ var events = [
   {'Date': new Date(2019, 4-1, 17), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
   {'Date': new Date(2019, 4-1, 24), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
   
-  {'Date': new Date(2019, 4-1, 20), 'Title': 'Taller de Escatología\nInvitado: Ps. Claudio Villarroel','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 4-1, 20), 'Title': 'Taller de Escatología','Link':'http://ieucblautaro.cl'},
 ];
 var settings = {};
 var element = document.getElementById('caleandar');
