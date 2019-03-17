@@ -33,6 +33,29 @@ var events = [
   {'Date': new Date(2018, 12-1, 1), 'Title': 'CONFERENCIA - Desde las 10hrs.','Link':'http://ieucblautaro.cl'},
     
 
+  //MARZO
+  {'Date': new Date(2019, 3-1, 3), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 3-1, 10), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 3-1, 17), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 3-1, 31), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+  
+  {'Date': new Date(2019, 11-1, 7), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 11-1, 14), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 11-1, 21), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 11-1, 28), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  
+  //ABRIL
+  {'Date': new Date(2019, 4-1, 7), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 4-1, 14), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 4-1, 21), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 4-1, 28), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+  
+  {'Date': new Date(2019, 11-1, 3), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 11-1, 19), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 11-1, 17), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 11-1, 24), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  
+  {'Date': new Date(2019, 4-1, 20), 'Title': 'Taller de Escatología - Invitado: Ps. Claudio Villarroel','Link':'http://ieucblautaro.cl'},
 ];
 var settings = {};
 var element = document.getElementById('caleandar');
