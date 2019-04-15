@@ -4,31 +4,32 @@
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
+		<link rel="shortcut icon" href="icoucb.ico" type="image/x-icon">
+		<!-- Favicon-->
+		<link rel="icon" href="icoucb.ico" type="image/x-icon">
 		<!-- Author Meta -->
 		<meta name="author" content="colorlib">
 		<!-- Meta Description -->
-		<meta name="description" content="">
+		<meta name="description" content="Pagina web de la Iglesia Unión de Centros Bíblicos de Lautaro">
 		<!-- Meta Keyword -->
 		<meta name="keywords" content="">
 		<!-- meta character set -->
 		<meta charset="UTF-8">
+		<!--Image-->
+		<meta property="og:image" content="http://ieucblautaro.cl/UCBL.jpg">
+
 		<!-- Site Title -->
 		<title>Iglesia UCB Lautaro</title>
-		
-		<link rel="shortcut icon" href="icoucb.ico" type="image/x-icon">
-		<link rel="icon" href="icoucb.ico" type="image/x-icon">
-		
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
-			<!--	CSS			============================================= -->
+
+			<!--	CSS	    -->
 			<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
-	
+
 			<!-- Stylesheets -->
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	  		<link rel="stylesheet" href="css/imagen.css"/>
     		
 			<link rel="stylesheet" href="caleandar-master/css/demo.css"/>
-    			<link rel="stylesheet" href="caleandar-master/css/theme2.css"/>
+    		<link rel="stylesheet" href="caleandar-master/css/theme2.css"/>
 			<link rel="stylesheet" href="caleandar-master/css/demo.css"/>
 
 			<link rel="stylesheet" href="css/linearicons.css">
@@ -42,39 +43,43 @@
 			<link rel="stylesheet" href="css/main2.css">
 		</head>
 		<body>	
+			<!--Start header-->
 			<header id="header">
-				<div class="header-top">
+				<div class="">
 					<div class="container">
-				  		<div class="row justify-content-center">
-						      <div id="logo">
-						        <a href="index.html"><img src="img/logo2.png" width="312" height=73" alt="" title="" /></a>
-						      </div>
-				  		</div>			  					
-					</div>
-				</div>
-				<div class="container main-menu">
-					<div class="row align-items-center justify-content-center d-flex">			
-				      <nav id="nav-menu-container">
-				        <ul class="nav-menu">
-				          <li><a href="index.html">PAGINA PRINCIPAL</a></li>
-				          <li><a href="historia.html">ACERCA DE NOSOTROS</a></li>
-				          <li><a href="https://opticabiblica.blogspot.com/">ÓPTICA BÍBLICA</a></li>
-				          <li><a href="galeria.html">GALERÍA DE IMÁGENES</a></li>			  			          					          		          
-				          <li><a href="https://www.youtube.com/channel/UCkqSSRMCHBpBLnQJ8UZ3U8A">VIDEOS</a></li>
-				          <li><a href="creemos.html">¿QUÉ CREEMOS?</a></li>
-				          <li><a href="identidad.html">NUESTRA IDENTIDAD</a></li>
-				        </ul>
-				      </nav><!-- #nav-menu-container -->					      		  
-					</div>
-				</div>
-			</header><!-- #header -->
-			
-			<!-- start banner Area -->
+				  		
 
-			<section class="banner-area">		
+					</div>
+				</div>
+			</header><!-- End header -->
+			
+			<!-- Start banner Area -->
+			<section id="top" class="banner-area">		
 				<div class="container">
-					<div class="row fullscreen align-items-center justify-content-between">
-						<div class="col-lg-12 banner-content">
+					<div style="margin-top: 20px;" class="row justify-content-center">
+						<div class="row" id="logo">
+							<a href="index.html">
+							<img src="img/logo2.png" width="312" height=73" alt="" title="" /></a>
+						</div>
+				  	</div>
+				  	<div style="margin-top: 20px;" class="row align-items-center justify-content-center d-flex main-menu">
+
+				  		<nav>
+							<ul class="nav-menu">
+							    <li><a href="index.html">                                                  PAGINA PRINCIPAL</a></li>
+							    <li><a href="historia.html">                                             ACERCA DE NOSOTROS</a></li>
+							    <li><a href="https://opticabiblica.blogspot.com/">                           ÓPTICA BÍBLICA</a></li>
+							    <li><a href="galeria.html">                                             GALERÍA DE IMÁGENES</a></li>
+							    <li><a href="https://www.youtube.com/channel/UCkqSSRMCHBpBLnQJ8UZ3U8A">              VIDEOS</a></li>
+							    <li><a href="creemos.html">                                                   ¿QUÉ CREEMOS?</a></li>
+							    <li><a href="identidad.html">                                             NUESTRA IDENTIDAD</a></li>
+							</ul>
+						</nav>
+				  	</div>
+
+					<div class="row banner-adjust fullscreen justify-content-between">
+
+						<div style="" class="col-lg-12 banner-content">
 							<h6 class="text-white txt-prin">IGLESIA EVANGÉLICA UNIÓN DE CENTROS BÍBLICOS LAUTARO</h6>
 							<h1 class="text-white txt-prin">¿Qué creemos?</h1>
 							<p class="text-white">
@@ -89,75 +94,144 @@
 				</div>					
 			</section>
 			<!-- End banner Area -->
-
-
-
-
-
-
-
-
-
-
-
-			<!-- Start reservation Area -->
-			<section id="02" class="reservation-area section-gap relative">
-				
-
-				<div class="overlay overlay-bg"></div>
+			<section class="gra-gray blog-area section-gap">
 				<div class="container">
+					<!--VISOR DE LA IMAGEN-->
+					<div id="mimodal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<center><img id="mi_img" src="" class="modal-content recibir-imagen"></center>
+							<center><div class="modal-footer"><a href="#" class="cerrar genric-btn danger radius">Cerrar</a><p id="txt"><strong class="texto-imagen"></strong></p></div></center>
 
-					<div class="row  align-items-center">
-
-						<div class="col-lg-6 reservation-left">
-							
-							<h1 class="text-white">¿Qué creemos?</h1>
-							<p class="text-white pt-20">	
-							La siguiente declaración  de fe fue redactada por el Pr. J.A. Torres Q.,  la cual enuncia de manera resumida, pero a la vez, reactualizada, lo que además como IEUCB (Iglesia Evangélica Unión de Centros Bíblicos) hemos creído históricamente. </p>
-
-							<h1 class="text-white">Con respecto a las Escrituras</h1>
-							<p class="text-white pt-20">Creemos que Dios es un Dios que se ha dado a conocer (Heb. 1:1ss). Así, en la creación como  a través de las Escrituras (Sal. 19; Rom. 1:18-20). De manera que tanto el Antiguo Testamento (39 libros) como el Nuevo (27 documentos, cartas mayormente), forman lo que conocemos hoy, como el canon (de Dios); la regla de fe y autoridad que Dios nos ha dado para los asuntos de fe, la vida misma y la práctica tanto eclesiástica, como cristiana general. En consecuencia, Dios no tiene  un segundo canon (deuterocanónicos).  Así, estos 66 libros conforman lo que creemos es la palabra de Dios autoritativa y normativa, esto,  como consecuencia directa  de la inspiración plenaria y verbal en sus escritos originales (2 Tim. 3:15s; 2 Ped. 1:15-21).  Nuestra confianza en ella es total y aunque no siempre nuestras convicciones  están a la par con lo que es ella (estable), creemos que ellas son finalmente el elemento divino preponderante en nuestro crecimiento espiritual y la  salvación de los perdidos (cf. Stg. 1:18s; 1 Ped. 1:23; 1 Cor. 1:18), por lo que creemos ellas deben ser el elemento principal en el culto cristiano. </p>
-
-							<h1 class="text-white">Con respecto a Dios </h1><p class="text-white pt-20">Creemos en un solo Dios (Deut. 6:4), Único, Santo, Perfecto, inmanente  y trascendente, que existen tres personas.  Así, como se expresa en el temprano credo niceno:   “Creemos en un Dios, Padre Todopoderoso, Hacedor de todas la cosas visibles e invisibles, y en un Señor Jesucristo, Hijo de Dios, engendrado del Padre, el unigénito; es decir, de la esencia→ [hipóstasis] del Padre, Dios de Dios, luz de luz, el mismo Dios del mismo Dios, engendrado, no hecho, pues es de una sustancia (homousios) con el Padre…”→ [unión hipostática] (Credo Niceno en Grudem 2007:253). En otras palabras, existe sólo un Ser Divino, una ousía (ser) pero en  tres hipóstasis (sustancias [personas]) (cf. Gén. 1:1; Jn. 1:1; Deut. 6:4; Sal. 139:1-16; Isa. 6:3; Jn. 15:26; Mt. 28:19; 1 Tim. 1:17; 2:5; 1 Cor. 8:6; 2 Cor. 13:14) </p>
-
-							<h1 class="text-white">Con respecto a Jesucristo</h1><p class="text-white pt-20">Creemos que Jesucristo fue una persona real que no solamente vivió hace más de dos mil años, sino que también murió pero resucitó al tercer día como las Escrituras lo habían revelado. (Sal. 22; Isa. 53; Sal. 22:16 cf. Jn. 20:25; Sal. 22:17 cf.  Jn. 19:33 et al.). Siendo el Hijo de Dios —y a la vez Dios verdadero y Hombre verdadero—  creemos también en Su preexistencia (él es eterno), nacimiento virginal por el poder  del Espíritu Santo, ministerio terrenal  y resurrección literal. Creemos además que vivió una vida sin pecado, en perfecta obediencia al Padre habiendo llevado a perfección la comisión del Padre (Heb. 10:7ss). Creemos además que  después de Su muerte vicaria y expiatoria en la cruz resucitó corporalmente y ascensión a la diestra del Padre, donde hoy intercede por los suyos. Además, él es cabeza y único Señor de la iglesia. Es solo a través de la fe en su obra, que el pecador puede tener vida eterna de acuerdo al evangelio eterno  (cf. Mt. 1:18-20; Lc. 1:35; Jn. 1:1-14; 1 Tim. 3:16; 1  Ped. 1:18-19; 2:24; 1  Cor. 15:1ss.; Hec. 1:9; Heb. 7:26; Hch.1:11; Heb. 7:26; Efe. 5:23)</p>
-
-							<h1 class="text-white">Con respecto al Espíritu Santo</h1><p class="text-white pt-20">Creemos en la personalidad y deidad del Espíritu Santo que regenera a todo creyente (Jn. 3:8), lo bautiza e introduce en el cuerpo de Cristo, lo sella y mora en él dirigiéndole a la santidad, dándole poder para la vida y el servicio cristiano, generando en él el fruto del Espíritu y repartiéndole dones para el ministerio. Creemos también  que algunos de los dones —no el poder de Dios— dados a la iglesia del primer siglo como lenguas y sanidades milagrosas, tuvieron un propósito temporal fundacional; esto es, fueron dados a la iglesia con el objetivo esencial de confirmar el mensaje del evangelio, de manera que,  cumplieron su propósito  (Jn. 14:26; Efe. 1:13; 4:30; Rom. 8:9; 1  Cor. 12:1ss.13; Efe. 4:11ss; Gál. 5:16.22ss)</p>
-
-							<h1 class="text-white">Con respecto a la Salvación</h1><p class="text-white pt-20">La salvación es una obra de Dios desde  el comienzo hasta el final; y es completamente por gracia. Esta salvación tiene dos polos. La obra de Cristo por nosotros, y la obra de Cristo, en nosotros. Con respecto a la primera, es una obra que nos habla del  aspecto sustitutorio a nuestro favor. Este hecho sustitutivo fue provisto solo por Dios y únicamente por medio de la muerte de Cristo, quien en la cruz tomó el lugar del pecador. El segundo aspecto de la salvación  tiene que ver con la obra de Cristo en nosotros, lo cual subraya los elementos internos por el cual se hace efectiva la salvación en quienes son objetos de la gracia divina. Aunque la fe y el arrepentimiento son mandatos imperativos de Dios para todo pecador, son a la vez, dones de Dios. De manera que, quien es objeto de esta gracia: es nacido de lo alto y llega a ser por gracia, un hijo de Dios creado en Cristo Jesús para buenas obras. Esta salvación incluye la preservación de todos los redimidos, quienes son guardados eternamente por el poder de Dios (cf. Jn. 1:12-13; Mr. 1:14-15; Hec. 13:48; 17:30-31; 18:26-28; 2 Tim. 2:24-26; Rom. 3:21ss; 8:1, 29ss; 2  Cor. 5:17; Efe. 2:8-10; 1 Jn. 5:11-12; Fil. 1:6, 29; 2:13; Jn. 10:28-29)</p>
-
-							<h1 class="text-white">Con respecto a la Iglesia</h1><p class="text-white pt-20">Creemos que el cuerpo de Cristo,  —la iglesia— está constituida por personas de  todo linaje y lengua y pueblo y nación (Apo. 5:9s) que nacieron de nuevo (Efe. 1:1s; 1 Ped. 1:1-2).  Teniendo a Cristo como su Cabeza, compuesta de todos aquellos elegidos por el Padre (Jn. 6:44; Efe. 1:3ss) que confían en Jesucristo como su Salvador y Señor. La iglesia —como cuerpo de Cristo— es un organismo viviente que tuvo su comienzo el día de Pentecostés por la venida y morada permanente del Espíritu Santo y es parte del propósito escatológico  especial de Dios durante la presente edad (cf. 1 Cor. 12:13; Efe. 1:22-23; Hch. 1:6; 2:41; 11:15-16; Mt. 28:19ss; 1 Cor. 11:23ss).</p>
-
-							<h1 class="text-white">Con respecto a las ordenanzas</h1><p class="text-white pt-20">Creemos que Cristo constituyó dos ordenanzas para la iglesia, no los llamamos sacramentos sino,  ordenanzas, a saber: el bautismo por inmersión en agua y la Santa Cena. De esta manera, los creyentes son llamados a testificar la verdad de la Palabra de Dios a través de la obediencia a estas dos ordenanzas del Señor, expuestas también en el  andar moral de los creyentes, y en la proclamación del evangelio en todo el mundo (cf. Mt. 26:26-30; 28:19ss; Mr. 14:22-26; Lc. 22:14-20; 1 Cor. 11:23s). </p>
-
-							<h1 class="text-white">Con respecto a las Cosas Venideras</h1><p class="text-white pt-20">Creemos que al final de estos días postreros Jesucristo vendrá por su iglesia para encontrarse amistosamente con ella en el cielo; evento que el NT denomina “arrebatamiento” (1 Tes. 4:13-17). Posteriormente a este, el Antiguo como el Nuevo Testamento revelan que habrá un periodo de angustia para Jacob (Jer. 30:7) que el NT también describe como un periodo de tribulación (Mt. 24:29). Después de este segundo evento, creemos que Cristo regresará de forma personal, visible e inminente por segunda vez con gran gloria y majestad para instaurar Su reino (intermedio) de mil años, llevando a cabo en proceso los aspectos apocalípticos relativos al día de Jehová, como también, el cumplimiento cabal a los pactos incondicionales que Dios llevó a cabo con Israel (cf. Isa. 9:6-7; 2 Sam. 7:12-17; Sal. 2; Apo. 20).  Así también creemos en la resurrección de los muertos, justos e injustos. Los primeros para bendición y los últimos para perdición. Creemos también que la resurrección será en dos etapas. Los justos serán levantados en el arrebatamiento y otros, —por sus propias vidas—  en el tiempo de la tribulación; los injustos, al final del milenio en concordancia con el juicio del trono blanco, de manera que esta segunda resurrección desembocará en la muerte segunda para todos los que en ella están implicados  (cf. Dan. 12:2;  Jn. 5:29; Apo. 20:4-5; 20:11-13).  Creemos también que al presente los que mueren en Cristo pasan  inmediatamente a la presencia del Señor y sus cuerpos serán resucitados en el rapto de la iglesia.  Finalmente creemos en el establecimiento literal del reino milenial en la tierra y posteriormente, la creación por parte de Dios de un nuevo cielo y una nueva tierra, esto es, el estado eterno (Hec. 1:11; Jn. 14:3; 1  Tes. 4:15-17; Jn. 5:28-29; 1 Cor. 15:51-52; 2  Cor. 5:1ss; Fil. 1:23; Apo. 3:10; 11:15; 19:11ss; 20:11ss.). </p>
-
-							<h1 class="text-white">Con respecto al Diablo</h1><p class="text-white pt-20">Creemos en la existencia real del diablo, Satanás juntamente con los demonios —antes ángeles—  quienes al mando del primero, se rebelaron contra Dios en la eternidad pasada, trayendo consigo su expulsión de la presencia de Dios junto con los ángeles que le se revelaron y le siguieron.  Creemos que Satanás antes —como un querubín prominente  de Dios— ocupaba un lugar de privilegio al lado de Dios, quien pasó a ser después, el instigador principal de la caída de Adán y Eva (cf. Gén. 3:1-3; Eze. 28:11-19; Isa. 14:12-20). Creemos además que hoy Satanás está en radical oposición y rebelión a Dios, tratando de destruir Sus obras y seducir a los hijos de Dios a pecar. Creemos sin embargo que Satanás y los ángeles caídos, —los demonios— fueron despojados de su poder y dominio sobre los creyentes por Cristo en la cruz. Sin embargo, también creemos que al presente sigue actuando, de manera que es llamado el príncipe y dios de este mundo, el dios de este siglo, el príncipe de la potestad del aire  (2 Cor. 4:4; Efe. 2:2), quien al presente ejerce su domino sobre los incrédulos (Efe. 2:1-3), de manera que parte de su obra maligna es oscurecer  la verdad del evangelio, y mantener a los incrédulos  esclavos a voluntad de él (cf. Jn. 8:30-36; 1 Jn. 3:8-10 ;2 Cor. 4:3-6; Col. 1:9-14). Así también creemos que en la cruz fue radicalmente despojado de su dominio, y aunque sigue actuando en los incrédulos hoy, el triunfo de Cristo trajo libertad a los creyentes y a quienes Dios sigue llamando y regenerando hoy por medio de la luz de Cristo comunicada en el evangelio. Creemos también que en el milenio será atado, siendo soltado —por un poco de tiempo— al final de este periodo para finalmente ser condenado al castigo eterno junto a la bestia y el falso profeta con los demonios y los incrédulos, quienes tendrán su fin en el lago de fuego (cf. Gén. 3:1ss; Ap. 12:9; Col. 2:15; Ef. 6:12; Mt. 25:41. Mt. 4:1-11;  13:39; 25:41; Lc. 4:2, 3,5, 9; 8:12; 10:18; 2 Ped. 2:4s; Apo. 20:1-15).</p>
-
-							<h1 class="text-white">Con respecto al Poder Civil</h1><p class="text-white pt-20">Creemos que, a pesar de la caída catastrófica de nuestros primeros padres y a la irremediable entropía moral y espiritual de la raza humana, Dios dio al hombre algunos elementos divinos para tener un freno moral y al mismo tiempo, llevar a cabo un orden social relativamente aceptable.  Creemos que en este sentido Dios estableció la autoridad civil después de la caída para justamente administrar justicia y orden social, esto,  a fin de que el hombre pudiera sujetarse a un orden ético  promoviendo los valores intrínsecos de la conciencia en sujeción a la ley de Dios revelada en los diez mandamientos.  Creemos también que a pesar que este ordenamiento no conseguirá la paz social ni mundial, son elementos dados a los hombres para refrenar el pecado y la maldad mientras Dios lleva a cabo su plan expreso en las Escrituras. Creemos además que los cristianos deben vivir en paz, ser agentes de reconciliación espiritual, siendo luz y sal de este mundo. Creemos también que el creyente debe respetar al gobierno y obedecer las leyes en todo lo que no contradiga las enseñanzas de las Sagradas Escrituras y no dañe la conciencia del hijo de Dios. Creemos también que todo gobierno humano es imperfecto, de manera que la esperanza de los creyentes no es el evangelio social o integral, sino, el gobierno perfecto que traerá Cristo cuando establezca su reino milenial de justicia y paz, el cual también esperamos  (cf. Gén. 8:21; 9:6; Hec. 4:19; 5:29; Rom. 13:1ss; Mt. 22:21; 1 Ped. 2:13ss; Isa. 9:6-7; 11:1ss).</p>
 						</div>
-						
-
-
 					</div>
-				</div>	
+					<!--CIERRA VISOR DE IMAGEN-->
+					<div class="container">
+
+					
+					<div class="section-top-border">
+						<p class="text-up"></p><br>
+						<div class="row">
+							<div class="text-right">
+								<h3 class="mb-30">¿Qué creemos?</h3>
+								<div class="row">
+									<div class="col-md-12">
+										<p class="top-p">La siguiente declaración de fe fue redactada por el Pr. J.A. Torres Q., la cual enuncia de manera resumida, pero a la vez, reactualizada, lo que además como IEUCB (Iglesia Evangélica Unión de Centros Bíblicos) hemos creído históricamente.</p><br>
+									</div>
+								</div>
+							</div>
+							
+							<div class="section-top-border">
+						<h3 class="mb-30">Con respecto a las escrituras</h3>
+						<div class="row">
+							<div class="col-lg-12">
+								<blockquote class="box-sh box-sh generic-blockquote top-p">Creemos que Dios es un Dios que se ha dado a conocer (Heb. 1:1ss). Así, en la creación como a través de las Escrituras (Sal. 19; Rom. 1:18-20). De manera que tanto el Antiguo Testamento (39 libros) como el Nuevo (27 documentos, cartas mayormente), forman lo que conocemos hoy, como el canon (de Dios); la regla de fe y autoridad que Dios nos ha dado para los asuntos de fe, la vida misma y la práctica tanto eclesiástica, como cristiana general. En consecuencia, Dios no tiene un segundo canon (deuterocanónicos). Así, estos 66 libros conforman lo que creemos es la palabra de Dios autoritativa y normativa, esto, como consecuencia directa de la inspiración plenaria y verbal en sus escritos originales (2 Tim. 3:15s; 2 Ped. 1:15-21). Nuestra confianza en ella es total y aunque no siempre nuestras convicciones están a la par con lo que es ella (estable), creemos que ellas son finalmente el elemento divino preponderante en nuestro crecimiento espiritual y la salvación de los perdidos (cf. Stg. 1:18s; 1 Ped. 1:23; 1 Cor. 1:18), por lo que creemos ellas deben ser el elemento principal en el culto cristiano.
+								</blockquote>
+							</div>
+						</div>
+					</div>
+						</div>
+					</div>
+					<div class="section-top-border">
+						<h3 class="mb-30">Con respecto a Dios</h3>
+						<div class="row">
+							<div class="col-lg-12">
+								<blockquote class="box-sh generic-blockquote top-p">Creemos en un solo Dios (Deut. 6:4), Único, Santo, Perfecto, inmanente y trascendente, que existen tres personas. Así, como se expresa en el temprano credo niceno: “Creemos en un Dios, Padre Todopoderoso, Hacedor de todas la cosas visibles e invisibles, y en un Señor Jesucristo, Hijo de Dios, engendrado del Padre, el unigénito; es decir, de la esencia→ [hipóstasis] del Padre, Dios de Dios, luz de luz, el mismo Dios del mismo Dios, engendrado, no hecho, pues es de una sustancia (homousios) con el Padre…”→ [unión hipostática] (Credo Niceno en Grudem 2007:253). En otras palabras, existe sólo un Ser Divino, una ousía (ser) pero en tres hipóstasis (sustancias [personas]) (cf. Gén. 1:1; Jn. 1:1; Deut. 6:4; Sal. 139:1-16; Isa. 6:3; Jn. 15:26; Mt. 28:19; 1 Tim. 1:17; 2:5; 1 Cor. 8:6; 2 Cor. 13:14)
+								</blockquote>
+							</div>
+						</div>
+					</div>
+
+					<div class="section-top-border">
+						<h3 class="mb-30">Con respecto a Jesucristo</h3>
+						<div class="row">
+							<div class="col-lg-12">
+								<blockquote class="box-sh generic-blockquote top-p">Creemos que Jesucristo fue una persona real que no solamente vivió hace más de dos mil años, sino que también murió pero resucitó al tercer día como las Escrituras lo habían revelado. (Sal. 22; Isa. 53; Sal. 22:16 cf. Jn. 20:25; Sal. 22:17 cf. Jn. 19:33 et al.). Siendo el Hijo de Dios —y a la vez Dios verdadero y Hombre verdadero— creemos también en Su preexistencia (él es eterno), nacimiento virginal por el poder del Espíritu Santo, ministerio terrenal y resurrección literal. Creemos además que vivió una vida sin pecado, en perfecta obediencia al Padre habiendo llevado a perfección la comisión del Padre (Heb. 10:7ss). Creemos además que después de Su muerte vicaria y expiatoria en la cruz resucitó corporalmente y ascensión a la diestra del Padre, donde hoy intercede por los suyos. Además, él es cabeza y único Señor de la iglesia. Es solo a través de la fe en su obra, que el pecador puede tener vida eterna de acuerdo al evangelio eterno (cf. Mt. 1:18-20; Lc. 1:35; Jn. 1:1-14; 1 Tim. 3:16; 1 Ped. 1:18-19; 2:24; 1 Cor. 15:1ss.; Hec. 1:9; Heb. 7:26; Hch.1:11; Heb. 7:26; Efe. 5:23)
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="section-top-border">
+						<h3 class="mb-30">Con respecto al Espíritu Santo</h3>
+						<div class="row">
+							<div class="col-lg-12">
+								<blockquote class="box-sh generic-blockquote top-p">Creemos en la personalidad y deidad del Espíritu Santo que regenera a todo creyente (Jn. 3:8), lo bautiza e introduce en el cuerpo de Cristo, lo sella y mora en él dirigiéndole a la santidad, dándole poder para la vida y el servicio cristiano, generando en él el fruto del Espíritu y repartiéndole dones para el ministerio. Creemos también que algunos de los dones —no el poder de Dios— dados a la iglesia del primer siglo como lenguas y sanidades milagrosas, tuvieron un propósito temporal fundacional; esto es, fueron dados a la iglesia con el objetivo esencial de confirmar el mensaje del evangelio, de manera que, cumplieron su propósito (Jn. 14:26; Efe. 1:13; 4:30; Rom. 8:9; 1 Cor. 12:1ss.13; Efe. 4:11ss; Gál. 5:16.22ss)
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="section-top-border">
+						<h3 class="mb-30">Con respecto a la Salvación</h3>
+						<div class="row">
+							<div class="col-lg-12">
+								<blockquote class="box-sh generic-blockquote top-p">La salvación es una obra de Dios desde el comienzo hasta el final; y es completamente por gracia. Esta salvación tiene dos polos. La obra de Cristo por nosotros, y la obra de Cristo, en nosotros. Con respecto a la primera, es una obra que nos habla del aspecto sustitutorio a nuestro favor. Este hecho sustitutivo fue provisto solo por Dios y únicamente por medio de la muerte de Cristo, quien en la cruz tomó el lugar del pecador. El segundo aspecto de la salvación tiene que ver con la obra de Cristo en nosotros, lo cual subraya los elementos internos por el cual se hace efectiva la salvación en quienes son objetos de la gracia divina. Aunque la fe y el arrepentimiento son mandatos imperativos de Dios para todo pecador, son a la vez, dones de Dios. De manera que, quien es objeto de esta gracia: es nacido de lo alto y llega a ser por gracia, un hijo de Dios creado en Cristo Jesús para buenas obras. Esta salvación incluye la preservación de todos los redimidos, quienes son guardados eternamente por el poder de Dios (cf. Jn. 1:12-13; Mr. 1:14-15; Hec. 13:48; 17:30-31; 18:26-28; 2 Tim. 2:24-26; Rom. 3:21ss; 8:1, 29ss; 2 Cor. 5:17; Efe. 2:8-10; 1 Jn. 5:11-12; Fil. 1:6, 29; 2:13; Jn. 10:28-29)
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<!--#$#$#$#$#$#$#$#$#$#$#$#$#$#$-->
+					<div class="section-top-border">
+						<h3 class="mb-30">Con respecto a la Iglesia</h3>
+						<div class="row">
+							<div class="col-lg-12">
+								<blockquote class="box-sh generic-blockquote top-p">
+									Creemos que el cuerpo de Cristo, —la iglesia— está constituida por personas de todo linaje y lengua y pueblo y nación (Apo. 5:9s) que nacieron de nuevo (Efe. 1:1s; 1 Ped. 1:1-2). Teniendo a Cristo como su Cabeza, compuesta de todos aquellos elegidos por el Padre (Jn. 6:44; Efe. 1:3ss) que confían en Jesucristo como su Salvador y Señor. La iglesia —como cuerpo de Cristo— es un organismo viviente que tuvo su comienzo el día de Pentecostés por la venida y morada permanente del Espíritu Santo y es parte del propósito escatológico especial de Dios durante la presente edad (cf. 1 Cor. 12:13; Efe. 1:22-23; Hch. 1:6; 2:41; 11:15-16; Mt. 28:19ss; 1 Cor. 11:23ss).
+								</blockquote>
+							</div>
+						</div>
+					</div>
+
+					<div class="section-top-border">
+						<h3 class="mb-30">Con respecto a las ordenanzas</h3>
+						<div class="row">
+							<div class="col-lg-12">
+								<blockquote class="box-sh generic-blockquote top-p">
+									Creemos que Cristo constituyó dos ordenanzas para la iglesia, no los llamamos sacramentos sino, ordenanzas, a saber: el bautismo por inmersión en agua y la Santa Cena. De esta manera, los creyentes son llamados a testificar la verdad de la Palabra de Dios a través de la obediencia a estas dos ordenanzas del Señor, expuestas también en el andar moral de los creyentes, y en la proclamación del evangelio en todo el mundo (cf. Mt. 26:26-30; 28:19ss; Mr. 14:22-26; Lc. 22:14-20; 1 Cor. 11:23s).
+								</blockquote>
+							</div>
+						</div>
+					</div>
+
+					<div class="section-top-border">
+						<h3 class="mb-30">Con respecto a las cosas venideras</h3>
+						<div class="row">
+							<div class="col-lg-12">
+								<blockquote class="box-sh generic-blockquote top-p">
+									Creemos que al final de estos días postreros Jesucristo vendrá por su iglesia para encontrarse amistosamente con ella en el cielo; evento que el NT denomina “arrebatamiento” (1 Tes. 4:13-17). Posteriormente a este, el Antiguo como el Nuevo Testamento revelan que habrá un periodo de angustia para Jacob (Jer. 30:7) que el NT también describe como un periodo de tribulación (Mt. 24:29). Después de este segundo evento, creemos que Cristo regresará de forma personal, visible e inminente por segunda vez con gran gloria y majestad para instaurar Su reino (intermedio) de mil años, llevando a cabo en proceso los aspectos apocalípticos relativos al día de Jehová, como también, el cumplimiento cabal a los pactos incondicionales que Dios llevó a cabo con Israel (cf. Isa. 9:6-7; 2 Sam. 7:12-17; Sal. 2; Apo. 20). Así también creemos en la resurrección de los muertos, justos e injustos. Los primeros para bendición y los últimos para perdición. Creemos también que la resurrección será en dos etapas. Los justos serán levantados en el arrebatamiento y otros, —por sus propias vidas— en el tiempo de la tribulación; los injustos, al final del milenio en concordancia con el juicio del trono blanco, de manera que esta segunda resurrección desembocará en la muerte segunda para todos los que en ella están implicados (cf. Dan. 12:2; Jn. 5:29; Apo. 20:4-5; 20:11-13). Creemos también que al presente los que mueren en Cristo pasan inmediatamente a la presencia del Señor y sus cuerpos serán resucitados en el rapto de la iglesia. Finalmente creemos en el establecimiento literal del reino milenial en la tierra y posteriormente, la creación por parte de Dios de un nuevo cielo y una nueva tierra, esto es, el estado eterno (Hec. 1:11; Jn. 14:3; 1 Tes. 4:15-17; Jn. 5:28-29; 1 Cor. 15:51-52; 2 Cor. 5:1ss; Fil. 1:23; Apo. 3:10; 11:15; 19:11ss; 20:11ss.).
+								</blockquote>
+							</div>
+						</div>
+					</div>
+
+					<div class="section-top-border">
+						<h3 class="mb-30">Con respecto al Diablo</h3>
+						<div class="row">
+							<div class="col-lg-12">
+								<blockquote class="box-sh generic-blockquote top-p">
+									Creemos en la existencia real del diablo, Satanás juntamente con los demonios —antes ángeles— quienes al mando del primero, se rebelaron contra Dios en la eternidad pasada, trayendo consigo su expulsión de la presencia de Dios junto con los ángeles que le se revelaron y le siguieron. Creemos que Satanás antes —como un querubín prominente de Dios— ocupaba un lugar de privilegio al lado de Dios, quien pasó a ser después, el instigador principal de la caída de Adán y Eva (cf. Gén. 3:1-3; Eze. 28:11-19; Isa. 14:12-20). Creemos además que hoy Satanás está en radical oposición y rebelión a Dios, tratando de destruir Sus obras y seducir a los hijos de Dios a pecar. Creemos sin embargo que Satanás y los ángeles caídos, —los demonios— fueron despojados de su poder y dominio sobre los creyentes por Cristo en la cruz. Sin embargo, también creemos que al presente sigue actuando, de manera que es llamado el príncipe y dios de este mundo, el dios de este siglo, el príncipe de la potestad del aire (2 Cor. 4:4; Efe. 2:2), quien al presente ejerce su domino sobre los incrédulos (Efe. 2:1-3), de manera que parte de su obra maligna es oscurecer la verdad del evangelio, y mantener a los incrédulos esclavos a voluntad de él (cf. Jn. 8:30-36; 1 Jn. 3:8-10 ;2 Cor. 4:3-6; Col. 1:9-14). Así también creemos que en la cruz fue radicalmente despojado de su dominio, y aunque sigue actuando en los incrédulos hoy, el triunfo de Cristo trajo libertad a los creyentes y a quienes Dios sigue llamando y regenerando hoy por medio de la luz de Cristo comunicada en el evangelio. Creemos también que en el milenio será atado, siendo soltado —por un poco de tiempo— al final de este periodo para finalmente ser condenado al castigo eterno junto a la bestia y el falso profeta con los demonios y los incrédulos, quienes tendrán su fin en el lago de fuego (cf. Gén. 3:1ss; Ap. 12:9; Col. 2:15; Ef. 6:12; Mt. 25:41. Mt. 4:1-11; 13:39; 25:41; Lc. 4:2, 3,5, 9; 8:12; 10:18; 2 Ped. 2:4s; Apo. 20:1-15).
+								</blockquote>
+							</div>
+						</div>
+					</div>
+
+					<div class="section-top-border">
+						<h3 class="mb-30">Con respecto al poder civil</h3>
+						<div class="row">
+							<div class="col-lg-12">
+								<blockquote class="box-sh generic-blockquote top-p">
+									Creemos que, a pesar de la caída catastrófica de nuestros primeros padres y a la irremediable entropía moral y espiritual de la raza humana, Dios dio al hombre algunos elementos divinos para tener un freno moral y al mismo tiempo, llevar a cabo un orden social relativamente aceptable. Creemos que en este sentido Dios estableció la autoridad civil después de la caída para justamente administrar justicia y orden social, esto, a fin de que el hombre pudiera sujetarse a un orden ético promoviendo los valores intrínsecos de la conciencia en sujeción a la ley de Dios revelada en los diez mandamientos. Creemos también que a pesar que este ordenamiento no conseguirá la paz social ni mundial, son elementos dados a los hombres para refrenar el pecado y la maldad mientras Dios lleva a cabo su plan expreso en las Escrituras. Creemos además que los cristianos deben vivir en paz, ser agentes de reconciliación espiritual, siendo luz y sal de este mundo. Creemos también que el creyente debe respetar al gobierno y obedecer las leyes en todo lo que no contradiga las enseñanzas de las Sagradas Escrituras y no dañe la conciencia del hijo de Dios. Creemos también que todo gobierno humano es imperfecto, de manera que la esperanza de los creyentes no es el evangelio social o integral, sino, el gobierno perfecto que traerá Cristo cuando establezca su reino milenial de justicia y paz, el cual también esperamos (cf. Gén. 8:21; 9:6; Hec. 4:19; 5:29; Rom. 13:1ss; Mt. 22:21; 1 Ped. 2:13ss; Isa. 9:6-7; 11:1ss).
+								</blockquote>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+					
+				</div>
 			</section>
-			<!-- End reservation Area -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-				
+						
 
 			<!-- start footer Area -->		
 			<footer class="footer-area">
@@ -205,13 +279,14 @@
 				<div class="footer-bottom-wrap">
 					<div class="container">
 						<div class="row footer-bottom d-flex justify-content-between align-items-center">
-							<p class="col-lg-8 col-mdcol-sm-6 -6 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright 2019 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+							<p class="col-lg-8 col-mdcol-sm-6 -6 footer-text m-0">
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								Copyright 2019 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a target="_blank">Colorlib</a><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							</p>
 							<ul class="col-lg-4 col-mdcol-sm-6 -6 social-icons text-right">
 	                            <li><a href="https://www.facebook.com/ieucblautaro/"><i class="fa fa-facebook"></i></a></li>
 	                            <li><a href="https://www.youtube.com/channel/UCkqSSRMCHBpBLnQJ8UZ3U8A"><i class="fa fa-youtube"></i></a></li>
-          
+	                            <li><a href="#top"><i class="fa fa-angle-up"></i></a></li>
 	                        </ul>
 						</div>						
 					</div>
@@ -231,15 +306,10 @@ Copyright 2019 All rights reserved | This template is made with <i class="fa fa-
 			<script src="js/owl.carousel.min.js"></script>			
             <script src="js/isotope.pkgd.min.js"></script>								
 			<script src="js/mail-script.js"></script>	
-			<script src="js/main.js"></script>	
+
 
 			<script src="js/imagen.js"></script>
-
 			<script type="text/javascript" src="caleandar-master/js/caleandar.js"></script>
     		<script type="text/javascript" src="caleandar-master/js/demo.js"></script>
-
-    		
-
-
 		</body>
 	</html>

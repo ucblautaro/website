@@ -4,31 +4,32 @@
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
+		<link rel="shortcut icon" href="icoucb.ico" type="image/x-icon">
+		<!-- Favicon-->
+		<link rel="icon" href="icoucb.ico" type="image/x-icon">
 		<!-- Author Meta -->
 		<meta name="author" content="colorlib">
 		<!-- Meta Description -->
-		<meta name="description" content="">
+		<meta name="description" content="Pagina web de la Iglesia Unión de Centros Bíblicos de Lautaro">
 		<!-- Meta Keyword -->
 		<meta name="keywords" content="">
 		<!-- meta character set -->
 		<meta charset="UTF-8">
+		<!--Image-->
+		<meta property="og:image" content="http://ieucblautaro.cl/UCBL.jpg">
+
 		<!-- Site Title -->
-		<title>Historia de la IEUCB</title>
-		
-		<link rel="shortcut icon" href="icoucb.ico" type="image/x-icon">
-		<link rel="icon" href="icoucb.ico" type="image/x-icon">
-		
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
-			<!--	CSS			============================================= -->
+		<title>Iglesia UCB Lautaro</title>
+
+			<!--	CSS	    -->
 			<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
-	
+
 			<!-- Stylesheets -->
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	  		<link rel="stylesheet" href="css/imagen.css"/>
     		
 			<link rel="stylesheet" href="caleandar-master/css/demo.css"/>
-    			<link rel="stylesheet" href="caleandar-master/css/theme2.css"/>
+    		<link rel="stylesheet" href="caleandar-master/css/theme2.css"/>
 			<link rel="stylesheet" href="caleandar-master/css/demo.css"/>
 
 			<link rel="stylesheet" href="css/linearicons.css">
@@ -42,39 +43,43 @@
 			<link rel="stylesheet" href="css/main2.css">
 		</head>
 		<body>	
+			<!--Start header-->
 			<header id="header">
-				<div class="header-top">
+				<div class="">
 					<div class="container">
-				  		<div class="row justify-content-center">
-						      <div id="logo">
-						        <a href="index.html"><img src="img/logo2.png" width="312" height=73" alt="" title="" /></a>
-						      </div>
-				  		</div>			  					
-					</div>
-				</div>
-				<div class="container main-menu">
-					<div class="row align-items-center justify-content-center d-flex">			
-				      <nav id="nav-menu-container">
-				        <ul class="nav-menu">
-				          <li><a href="index.html">PAGINA PRINCIPAL</a></li>
-				          <li><a href="index.html#02">ACERCA DE NOSOTROS</a></li>
-				          <li><a href="https://opticabiblica.blogspot.com/">ÓPTICA BÍBLICA</a></li>
-				          <li><a href="galeria.html">GALERÍA DE IMÁGENES</a></li>			  			          					          		          
-				          <li><a href="https://www.youtube.com/channel/UCkqSSRMCHBpBLnQJ8UZ3U8A">VIDEOS</a></li>
-				          <li><a href="creemos.html">¿QUÉ CREEMOS?</a></li>
-				          <li><a href="identidad.html">NUESTRA IDENTIDAD</a></li>
-				        </ul>
-				      </nav><!-- #nav-menu-container -->					      		  
-					</div>
-				</div>
-			</header><!-- #header -->
-			
-			<!-- start banner Area -->
+				  		
 
-			<section class="banner-area">		
+					</div>
+				</div>
+			</header><!-- End header -->
+			
+			<!-- Start banner Area -->
+			<section id="top" class="banner-area">		
 				<div class="container">
-					<div class="row fullscreen align-items-center justify-content-between">
-						<div class="col-lg-12 banner-content">
+					<div style="margin-top: 20px;" class="row justify-content-center">
+						<div class="row" id="logo">
+							<a href="index.html">
+							<img src="img/logo2.png" width="312" height=73" alt="" title="" /></a>
+						</div>
+				  	</div>
+				  	<div style="margin-top: 20px;" class="row align-items-center justify-content-center d-flex main-menu">
+
+				  		<nav>
+							<ul class="nav-menu">
+							    <li><a href="index.html">                                                  PAGINA PRINCIPAL</a></li>
+							    <li><a href="historia.html">                                                 HISTORIA IEUCB</a></li>
+							    <li><a href="https://opticabiblica.blogspot.com/">                           ÓPTICA BÍBLICA</a></li>
+							    <li><a href="galeria.html">                                             GALERÍA DE IMÁGENES</a></li>
+							    <li><a href="https://www.youtube.com/channel/UCkqSSRMCHBpBLnQJ8UZ3U8A">              VIDEOS</a></li>
+							    <li><a href="creemos.html">                                                   ¿QUÉ CREEMOS?</a></li>
+							    <li><a href="identidad.html">                                             NUESTRA IDENTIDAD</a></li>
+							</ul>
+						</nav>
+				  	</div>
+
+					<div class="row banner-adjust fullscreen justify-content-between">
+
+						<div style="" class="col-lg-12 banner-content">
 							<h6 class="text-white txt-prin">IGLESIA EVANGÉLICA UNIÓN DE CENTROS BÍBLICOS LAUTARO</h6>
 							<h1 class="text-white txt-prin">Nuestra identidad teológica</h1>
 							<p class="text-white">
@@ -90,235 +95,173 @@
 			</section>
 			<!-- End banner Area -->
 
+			<section class="gra-gray home-about-area section-gap">
+				<div class="container">
+					<!--VISOR DE LA IMAGEN-->
+					<div id="mimodal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<center><img id="mi_img" src="" class="modal-content recibir-imagen"></center>
+							<center><div class="modal-footer"><a href="#" class="cerrar genric-btn danger radius">Cerrar</a><p id="txt"><strong class="texto-imagen"></strong></p></div></center>
 
-
-
-
-
-			<section id="02" class="reservation-area section-gap relative">
-				
-
-				<div class="overlay"></div>
+						</div>
+					</div>
+					<!--CIERRA VISOR DE IMAGEN-->
 					<div class="container">
 
+					
+					<div class="section-top-border">
+						<p class="text-up"></p><br>
 						<div class="row">
-
-							<div class="col-12 reservation-left">
-								
-								<h1 class="text">UCB Lautaro: Nuestra identidad teológica</h1>
-								<p class="text pt-20">Por Pr. J.A. Torres Q. Marzo 2019.</p>
-								<p style="font-size: 17px; color:black;" class="text">	
-								 La UCB Lautaro como parte de la IEUCB (Iglesias Evangélica Unión de Centros Bíblicos) no está en busca de una identidad teología, la tiene. Sin embargo,  es necesario aclarar aquí cómo fue que llegó a ser lo que es hoy en el sentido teológico, esto es, su línea doctrinal y de allí, los énfasis teológicos que como UCB Lautaro también profesamos. Esto es necesario recordar, en vista de la entropía misma de todas las cosas, incluyendo la influencia exógena de enfoques doctrinales diferentes propios del quehacer evangelical. En términos generales, la  UCB Lautaro   se enmarcada bajo los siguientes parámetros teológicos que a la fecha se han derivado de la propia  historia de la IEUCB  y el refinamiento ulterior propio derivado del estudio riguroso de las Escrituras.  Así, la identidad teológica de UCB Lautaro  está dada por cuatro énfasis generales  que podemos resumir en las siguientes declaraciones que explicamos a continuación:   </p>
-								 
-							</div>
-							<div class="col-12">
-								<br>
-								 <h5>I.	La UCB Lautaro es una iglesia  fundamentalista </h5>
-								 <h5>II. La UCB Lautaro se rige por un gobierno autónomo congregacional-presbiteriano </h5>
-								 <h5>III. La UCB Lautaro se adhiere de manera general a la perspectiva calvinista </h5>
-								 <h5>IV. La UCB Lautaro se adhiere a una escatología pretribucionalista premilenarista dispensacional</h5>
-							</div>
-
-							<div class="col-12">
-								<br>
-								<p style="font-size: 17px; color:black;" class="text">	
-								 Por supuesto,  lo anterior no ha surgido de la noche a la mañana, sino que ha devenido con todas los detalles propios del camino desde el comienzo o infancia de la IEUCB, hasta lo que es un en día, en especial, en nuestro medio (UCB Lautaro).   </p>
-							</div>
-							
-							
-						</div>
-						<div class="row">
-							<div class="col-md-3"></div>
-							<div class="col-md-6 single-blog thumb center">
-								<img class=" img-fluid image-responsive imagen" src="img/Icat.jpg" title="Instituto Bíblico IEUCB Cruz 258 Temuco">
-								<p class="text pt-20">Instituto Bíblico IEUCB Cruz 258 Temuco</p>
+							<div class="text-left">
+								<h3 class="mb-30">UCB Lautaro: Nuestra identidad teológica</h3>
+								<div class="row">
+									<div class="col-md-12">
+										<p style="margin-top:-20px; ">Por Pr. J.A. Torres Q.</p><br>
+										<p class="top-p2">La UCB Lautaro como parte de la IEUCB (Iglesias Evangélica Unión de Centros Bíblicos) no está en busca de una identidad teología, la tiene. Sin embargo, es necesario aclarar aquí cómo fue que llegó a ser lo que es hoy en el sentido teológico, esto es, su línea doctrinal y de allí, los énfasis teológicos que como UCB Lautaro también profesamos. Esto es necesario recordar, en vista de la entropía misma de todas las cosas, incluyendo la influencia exógena de enfoques doctrinales diferentes propios del quehacer evangelical. En términos generales, la UCB Lautaro se enmarcada bajo los siguientes parámetros teológicos que a la fecha se han derivado de la propia historia de la IEUCB y el refinamiento ulterior propio derivado del estudio riguroso de las Escrituras. Así, la identidad teológica de UCB Lautaro está dada por cuatro énfasis generales que podemos resumir en las siguientes declaraciones que explicamos a continuación:</p><br>
+										<div class="section-top-border col-md-12 mt-sm-30 typo-sec">
+											<ul class="unordered-list">
+												<li><h5>La UCB Lautaro es una iglesia fundamentalista</h5></li>
+												<li><h5>La UCB Lautaro se rige por un gobierno autónomo congregacional-presbiteriano</h5></li>
+												<li><h5>La UCB Lautaro se adhiere de manera general a la perspectiva calvinista</h5></li>
+												<li><h5>La UCB Lautaro se adhiere a una escatología pretribucionalista premilenarista dispensacional</h5></li>
+											</ul>					
+										</div>
+										<br>
+										<p class="">Por supuesto, lo anterior no ha surgido de la noche a la mañana, sino que ha devenido con todas los detalles propios del camino desde el comienzo o infancia de la IEUCB, hasta lo que es un en día, en especial, en nuestro medio (UCB Lautaro).</p><br>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					
-					<br>
 
-					
-					<div class="container">
-
-						<div class="row">
-
-							<div class="col reservation-left">
-								
-								<h3>I.	La UCB Lautaro es una iglesia fundamentalista </h3>
-								<p style="font-size: 17px; color:black;" class="text">	“Fundamentalismo”, hoy en día un término peyorativo en vista que muchos ven en este epíteto al “…conservadurismo para el que la defensa de sus posiciones muchas veces pasa por una cuestionable relación con el poder…” (Svensson 2013:1). Sin  embargo, al fundamentalismo al que se ha adherido históricamente la IEUCB, no es a la distorsión anterior o a la versión sesgada que este concepto ha generado hoy, sino, a las conclusiones de lo que  fue en su momento, el movimiento organizado del año 1885, conocidos por su obra “The Fundamentals”, el grupo de creyentes conservadores americanos que respondió al liberalismo teológico literario del siglo XIX que había penetrado en suelo americano. Así, y desde sus inicios, la IEUCB —y la UCB Lautaro— se ha comprometido con los postulados “fundamentales” de este movimiento, a saber 1. El nacimiento virginal del Señor. 2. La divinidad de Cristo. 3. El sacrificio expiatorio en la cruz. 4. La resurrección de Cristo entre los muertos. 5. La segunda venida de Jesucristo. Y 6. La autoridad e infalibilidad de las Escrituras. Ahora bien, no solo estos fundamentos esenciales de la fe han sido apropiados por la UCB, a estos, se añade un rechazo a la “alta crítica”  y las conclusiones de la teología derivada de la neo-ortodoxia de teólogos como Karl Bart (1886-1968), Paul Tillich (1886-1965), Rudolf Bultmann (1884-1976) entre otros. Ahora bien, si duda con toda propiedad se puede decir que la UCB Lautaro es una iglesia  fundamentalista, pero es necesario señalar que lo es esencialmente porque es el sine qua non de la fe apostólica (1 Cor. 3:10s). Precisas son en este sentido las palabras de quien fuera presidente  y secretario general de la UCB como también co-fundador, profesor y director del Instituto Centro Bíblico de Temuco (ICAT Instituto de Capacitación Teológica), nuestro hno. Manfred A. Bluthardt, quien escribió notablemente: «si decimos, que Jesucristo es un Salvador está bien; pero afirmar, que Cristo es el único Salvador es fundamentalismo, que debe ser erradicado. No obstante, el fundamentalismo es exclusividad del cristianismo, pues: “…en ningún otro hay salvación; porque no hay otro nombre bajo el cielo, dado a los hombres, en que podamos ser salvos.” (Hch. 4:12)». (Bluthardt 2015:1).</p>
-
+					<div class="">
+						<div  class="row ">
+							<div class="col-md-3"></div><!--Espacio-->
+							<div style="" class="col-md-6 title text-center single-blog">
+								<div class="thumb">
+								<img class="col img-fluid image-responsive imagen" src="img/icat.jpg" title="Instituto Bíblico IEUCB Cruz 258 Temuco">			
+								<br><br><p class="">Instituto Bíblico IEUCB Cruz 258 Temuco</p>			
+								</div>
 							</div>
-							
+							<div class="col-md-3"></div><!--Espacio-->
 						</div>
 					</div>
-					<br>
-					</div>
-					<div class="row">
-							<div class="col-md-3"></div>
-							<div class="col-md-6 single-blog thumb center">
-								<img class=" img-fluid image-responsive imagen" src="img/Icat2.jpg" title="
-									El profesor Manfred A. Bluthardt con alumnos, algunos de ellos aun en el ministerio, otros retirados, y  otros como el hno.  Heriberto Moreno, con el Señor.">
-								<p class="text pt-20">El profesor Manfred A. Bluthardt con alumnos, algunos de ellos aun en el ministerio, otros retirados, y  otros como el hno.  Heriberto Moreno, con el Señor.</p>
-							</div>
-						</div>
 
-					
-					
-
-					<br>
-
-					<div class="container">
-
+					<div class="section-top-border">
+						<h3 class="mb-30">I.	La UCB Lautaro es una iglesia fundamentalista</h3>
 						<div class="row">
-
-							<div class="col reservation-left">
-								<h3>II.	La UCB Lautaro se rige por un gobierno autónomo congregacional-presbiteriano </h3>
-								
-								<p style="font-size: 17px; color:black;" class="text">	
-								¿Qué se entiende por un gobierno autónomo congregacional-presbiteriano? Por supuesto, esto es un tipo mixto de gobierno. Ahora bien, quienes fundaron la “Unión de Centros Bíblicos”, tenían diversas alternativas para elegir el modelo de Iglesia que querían establecer (episcopal, presbiteriano, representativo), sin embargo, asumieron de manera natural, el sistema congregacional, pues la mayoría de ellos además provenían de iglesias congregacionalistas como las Bautistas del Sur, los Bautistas Generales  y las iglesias  Bautistas  “Independientes.” Esta forma de gobierno eclesiástico, excluye la idea de jerarquías de poder como lo hace el sistema episcopal de la iglesia Católica y las iglesias pentecostales. Así, la característica más marcada del congregacionalismo que UCB sigue, es la autonomía plena de la iglesia local. Y, aunque  las diversas iglesias que conforman UCB (entre ellas UCB Lautaro) tienen una estrecha relación entre sí,  ninguna iglesia local —incluyendo  la misma Junta Ejecutiva— tiene autoridad espiritual sobre ellas. Ahora, no quiere decir esto, que las iglesias UCB locales sean legalmente autónomas, pues de la mano de su autonomía e independencia espiritual y administrativa, responden también, a las disposiciones que la IEUCB y su directorio (JE) de turno establece para ellas a través de las convecciones anuales, los cuales no pasando por alto la autonomía propia de las iglesias locales a través de los diversos distritos  comunica y  vela por el cumplimiento de los acuerdos que todas la iglesias locales UCBs subscribe a través de las instancias oficiales mencionadas donde son parte todas la iglesias UCB a través de sus delegados (pastores, ancianos, representantes).    
-
-								Ahora bien, internamente la UCB de Lautaro reconoce la importancia del gobierno congregacional y la voz de la iglesia a la cual le da el valor debido en el ejercicio propio del gobierno congregacional; sin embargo,  no lo asumimos como un tipo de voz populi, pues esto, aun en sus diferentes versiones no refleja lo que es el congregacionalismo bíblico. Esto es, una iglesia dirigida y gobernada por un gobierno “plural masculino de ancianos”, quienes como representantes confirmados por la iglesia gobiernan y guían a la misma no solo en los aspectos administrativos, sino principalmente, en su crecimiento espiritual. Ahora, ¿por qué una pluralidad de Ancianos? Mencionamos aquí cuatro características que ha resumido el pastor Mark Dever que creemos son no solo bíblicas, sino también, prácticos en el ejercicio propio de un sano gobierno plural de ancianos que la UCB Lautaro ha apropiado. Primero, ningún pastor (que es anciano) es lo suficientemente dotado para cumplir con todas las exigencias que requiere el ministerio con sus labores y  problemas. En su calidad de humano, es imperfecto y como creyente no posee todos los dones y capacidades. Es por eso que necesita de otros “ancianos” (que son también pastores) que suplan sus faltas. Así, los ancianos se animan, se cubren, se fortalecen, se aconsejan y se apoyan mutuamente. Segundo, la pluralidad de ancianos desvanece la crítica congregacional. Esto es,  cuando la iglesia cuenta con un liderazgo unipersonal (un solo pastor), la mayoría de las críticas van dirigidas hacia dicho pastor. Él es la cara visible de la congregación y generalmente todas las decisiones pasan por él. Ahora, y, aunque contar con un liderazgo plural no evita las murmuraciones y las críticas, se puede sobrellevar mejor, impide la crítica a una sola persona, ya que las decisiones son ejecutadas por los ancianos y se fortalecen mutuamente a pesar de las críticas. Tercero, el gobierno plural de ancianos, añade sabiduría pastoral. Esto es,  un grupo de ancianos (equipo pastoral) da mucha más sensatez respecto las decisiones que se tomen, evitando con mayor discreción la toma de  decisiones incorrectas que perjudiquen a la iglesia. Por supuesto, cada anciano tiene diferentes ideas, perspectivas de ciertas  situaciones, sin embargo, esto más que un escoyo en las decisiones eclesiásticas, da sabiduría al equipo pastoral para hacer siempre lo correcto y adecuado según sea el caso.  Y cuarto, el liderazgo plural de anciano  permite un mejor cumplimiento de la disciplina en la iglesia, práctica que es muy pertinente para el testimonio de la asamblea. En efecto, no es uno que ejerce la disciplina sobre los creyentes, sino que todos los pastores (ancianos) lo hacen para preservar la santidad de la congregación (Dever 2008:141-144). 
-								  </p>
-
-								<br>
-
-
+							<div class="col-lg-12">
+								<blockquote class="box-sh generic-blockquote top-p2">
+									“Fundamentalismo”, hoy en día es un término peyorativo en vista que muchos ven en este epíteto al “…conservadurismo para el que la defensa de sus posiciones muchas veces pasa por una cuestionable relación con el poder…” (Svensson 2013:1). Sin embargo, al fundamentalismo al que se ha adherido históricamente la IEUCB, no es a la distorsión anterior o a la versión sesgada que este concepto ha generado hoy, sino, a las conclusiones de lo que fue en su momento, el movimiento organizado del año 1885, conocidos por su obra “The Fundamentals”, el grupo de creyentes conservadores americanos que respondió al liberalismo teológico literario del siglo XIX que había penetrado en suelo americano. Así, y desde sus inicios, la IEUCB —y la UCB Lautaro— se ha comprometido con los postulados “fundamentales” de este movimiento, a saber 1. El nacimiento virginal del Señor. 2. La divinidad de Cristo. 3. El sacrificio expiatorio en la cruz. 4. La resurrección de Cristo entre los muertos. 5. La segunda venida de Jesucristo. Y 6. La autoridad e infalibilidad de las Escrituras. Ahora bien, no solo estos fundamentos esenciales de la fe han sido apropiados por la UCB, a estos, se añade un rechazo a la “alta crítica” y las conclusiones de la teología derivada de la neo-ortodoxia de teólogos como Karl Bart (1886-1968), Paul Tillich (1886-1965), Rudolf Bultmann (1884-1976) entre otros. Ahora bien, si duda con toda propiedad se puede decir que la UCB Lautaro es una iglesia fundamentalista, pero es necesario señalar que lo es esencialmente porque es el sine qua non de la fe apostólica (1 Cor. 3:10s). Precisas son en este sentido las palabras de quien fuera presidente y secretario general de la UCB como también co-fundador, profesor y director del Instituto Centro Bíblico de Temuco (ICAT Instituto de Capacitación Teológica), nuestro hno. Manfred A. Bluthardt, quien escribió notablemente: «si decimos, que Jesucristo es un Salvador está bien; pero afirmar, que Cristo es el único Salvador es fundamentalismo, que debe ser erradicado. No obstante, el fundamentalismo es exclusividad del cristianismo, pues: “…en ningún otro hay salvación; porque no hay otro nombre bajo el cielo, dado a los hombres, en que podamos ser salvos.” (Hch. 4:12)». (Bluthardt 2015:1).
+								</blockquote>
 							</div>
-							
 						</div>
 						<br>
-						<div class="row">
-							<div class="col-md-3"></div>
-							<div class="col-md-6 single-blog thumb center">
-								<img class=" img-fluid image-responsive imagen" src="img/img5.jpg" title="">
-								<p class="text pt-20">Primeros templos UCB en la Araucanía</p>
+						<div  class="row ">
+							<div class="col-md-3"></div><!--Espacio-->
+							<div style="" class="col-md-6 title text-center single-blog">
+								<div class="thumb">
+								<img class="col img-fluid image-responsive imagen" src="img/icat2.jpg" title="El profesor Manfred A. Bluthardt con alumnos, algunos de ellos aun en el ministerio, otros retirados, y otros como el hno. Heriberto Moreno, con el Señor.">			
+								<br><br><p class="">El profesor Manfred A. Bluthardt con alumnos, algunos de ellos aun en el ministerio, otros retirados, y otros como el hno. Heriberto Moreno, con el Señor.</p>			
+								</div>
 							</div>
+							<div class="col-md-3"></div><!--Espacio-->
 						</div>
-
-						
+					
 					</div>
 
-					<br>
+
+
+
+					<div class="section-top-border">
+						<h3 class="mb-30">II.	La UCB Lautaro se rige por un gobierno autónomo congregacional-presbiteriano</h3>
+						<div class="row">
+							<div class="col-lg-12">
+								<blockquote class="box-sh generic-blockquote top-p2">
+									¿Qué se entiende por un gobierno autónomo congregacional-presbiteriano? Por supuesto, esto es un tipo mixto de gobierno. Ahora bien, quienes fundaron la “Unión de Centros Bíblicos”, tenían diversas alternativas para elegir el modelo de Iglesia que querían establecer (episcopal, presbiteriano, representativo), sin embargo, asumieron de manera natural, el sistema congregacional, pues la mayoría de ellos además provenían de iglesias congregacionalistas como las Bautistas del Sur, los Bautistas Generales y las iglesias Bautistas “Independientes.” Esta forma de gobierno eclesiástico, excluye la idea de jerarquías de poder como lo hace el sistema episcopal de la iglesia Católica y las iglesias pentecostales. Así, la característica más marcada del congregacionalismo que UCB sigue, es la autonomía plena de la iglesia local. Y, aunque las diversas iglesias que conforman UCB (entre ellas UCB Lautaro) tienen una estrecha relación entre sí, ninguna iglesia local —incluyendo la misma Junta Ejecutiva— tiene autoridad espiritual sobre ellas. Ahora, no quiere decir esto, que las iglesias UCB locales sean legalmente autónomas, pues de la mano de su autonomía e independencia espiritual y administrativa, responden también, a las disposiciones que la IEUCB y su directorio (JE) de turno establece para ellas a través de las convecciones anuales, los cuales no pasando por alto la autonomía propia de las iglesias locales a través de los diversos distritos comunica y vela por el cumplimiento de los acuerdos que todas la iglesias locales UCBs subscribe a través de las instancias oficiales mencionadas donde son parte todas la iglesias UCB a través de sus delegados (pastores, ancianos, representantes). Ahora bien, internamente la UCB de Lautaro reconoce la importancia del gobierno congregacional y la voz de la iglesia a la cual le da el valor debido en el ejercicio propio del gobierno congregacional; sin embargo, no lo asumimos como un tipo de voz populi, pues esto, aun en sus diferentes versiones no refleja lo que es el congregacionalismo bíblico. Esto es, una iglesia dirigida y gobernada por un gobierno “plural masculino de ancianos”, quienes como representantes confirmados por la iglesia gobiernan y guían a la misma no solo en los aspectos administrativos, sino principalmente, en su crecimiento espiritual. Ahora, ¿por qué una pluralidad de Ancianos? Mencionamos aquí cuatro características que ha resumido el pastor Mark Dever que creemos son no solo bíblicas, sino también, prácticos en el ejercicio propio de un sano gobierno plural de ancianos que la UCB Lautaro ha apropiado. Primero, ningún pastor (que es anciano) es lo suficientemente dotado para cumplir con todas las exigencias que requiere el ministerio con sus labores y problemas. En su calidad de humano, es imperfecto y como creyente no posee todos los dones y capacidades. Es por eso que necesita de otros “ancianos” (que son también pastores) que suplan sus faltas. Así, los ancianos se animan, se cubren, se fortalecen, se aconsejan y se apoyan mutuamente. Segundo, la pluralidad de ancianos desvanece la crítica congregacional. Esto es, cuando la iglesia cuenta con un liderazgo unipersonal (un solo pastor), la mayoría de las críticas van dirigidas hacia dicho pastor. Él es la cara visible de la congregación y generalmente todas las decisiones pasan por él. Ahora, y, aunque contar con un liderazgo plural no evita las murmuraciones y las críticas, se puede sobrellevar mejor, impide la crítica a una sola persona, ya que las decisiones son ejecutadas por los ancianos y se fortalecen mutuamente a pesar de las críticas. Tercero, el gobierno plural de ancianos, añade sabiduría pastoral. Esto es, un grupo de ancianos (equipo pastoral) da mucha más sensatez respecto las decisiones que se tomen, evitando con mayor discreción la toma de decisiones incorrectas que perjudiquen a la iglesia. Por supuesto, cada anciano tiene diferentes ideas, perspectivas de ciertas situaciones, sin embargo, esto más que un escoyo en las decisiones eclesiásticas, da sabiduría al equipo pastoral para hacer siempre lo correcto y adecuado según sea el caso. Y cuarto, el liderazgo plural de anciano permite un mejor cumplimiento de la disciplina en la iglesia, práctica que es muy pertinente para el testimonio de la asamblea. En efecto, no es uno que ejerce la disciplina sobre los creyentes, sino que todos los pastores (ancianos) lo hacen para preservar la santidad de la congregación (Dever 2008:141-144).
+								</blockquote>
+							</div>
+						</div>
+						<br>
+						<div  class="row ">
+							<div class="col-md-3"></div><!--Espacio-->
+							<div style="" class="col-md-6 title text-center single-blog">
+								<div class="thumb">
+								<img class="col img-fluid image-responsive imagen" src="img/img5.jpg" title="Primeros templos UCB en la Araucanía.">			
+								<br><br><p class="">Primeros templos UCB en la Araucanía.</p>			
+								</div>
+							</div>
+							<div class="col-md-3"></div><!--Espacio-->
+						</div>
+					
+					</div>
+
+
+
+					<div class="section-top-border">
+						<h3 class="mb-30">III.	La UCB Lautaro se adhiere de manera general a la perspectiva calvinista</h3>
+						<div class="row">
+							<div class="col-lg-12">
+								<blockquote class="box-sh generic-blockquote top-p2">
+									Tarde o temprano el creyente —que va madurar en su fe— debe enfrentarse a la cuestión del libre albedrío. Mayor aun, si se trata de una conflación de iglesias donde el consenso se torna un tema difícil. Pues, ¿fue la IEUCB una corporación calvinista desde sus inicios? ¿Fue una corporación arminiana de sus comienzos? Por supuesto, la IEUCB tuvo una infancia, y temas como estos no fueron del interés de aquellos días y tampoco estaban en boga. Sin embargo, esto no quiere decir que hoy seamos ajenos a estos temas. En efecto, fue el año 2016 que en la “Conferencia Pastoral de la UCB” del 17-20 de Octubre (Santiago, Chile) del mismo año, el Pastor Matt Postiff (Ph.D., Th.M.) debió abordar este tema entre nosotros (“La Doctrina Bíblica de la Salvación, Manteniendo la Verdad y la Unidad”) debido a los propios roces que temáticas como esta trajeron. Así, algunas conclusiones que replicamos aquí y que como UCB Lautaro creemos son, primero, UCB Lautaro rechaza las conclusiones pelagianistas y semipelagianistas acerca del hombre como también, las ideas del híper-calvinismo. Sin embargo, y esto hay que aclarar, el híper calvinismo es diferente al “calvinismo”; así, UCB Lautaro no tiene problemas con el calvinismo cuatro puntista (común en nuestro medio también), pero se adhiere a las convicciones calvinistas (“Depravación total”, “elección incondicional”, “expiación particular”, “gracia irresistible”, y “perseverancia de los santos”) tal cual fueron originalmente expuestas en los Cánones de Dorf el año 1918s, en respuesta a las críticas de los “remostrantes” (seguidores de Arminio), pero también, como un cortafuego a los nuevos focos del pelagianismo y el semipelagianismo de aquellos días condenados por los concilios preliminares de la iglesia (Cartago 416 d.C.; Éfeso 431 d.C.). Sin embargo, —y a modo de aclaración— queremos dejar claro que no somos salvos por creer en los “cinco puntos del calvinismo,” (doctrinas de la Gracia) somos salvos por creer en Cristo y es el evangelio el que debe ser promovido; por supuesto, una correcta soteriología deriva en un correcto evangelismo y eso es lo que estamos convencidos debemos cuidar y promover.
+								</blockquote>
+							</div>
+						</div>
+						<br>
+						<div  class="row ">
+							<div class="col-md-3"></div><!--Espacio-->
+							<div style="" class="col-md-6 title text-center single-blog">
+								<div class="thumb">
+								<img class="col img-fluid image-responsive imagen" src="img/img6.jpg" title="Avance 2016.">			
+								<br><br><p class="">Avance 2016</p>			
+								</div>
+							</div>
+							<div class="col-md-3"></div><!--Espacio-->
+						</div>
+					
+					</div>
+
+
+
+					<div class="section-top-border">
+						<h3 class="mb-30">IV.	La UCB Lautaro tiene una escatología pretribucionalista premilenarista dispensacional</h3>
+						<div class="row">
+							<div class="col-lg-12">
+								<blockquote class="box-sh generic-blockquote top-p2">
+									¿Qué quiere decir una escatología pretribucionalista premilenarista dispensacional? Principalmente, que creemos en un arrebatamiento pre-tribucional (antes de la tribulación), en un reino literal milenial de Cristo en la tierra, y en las distinción que las Escrituras hacen de Israel y la iglesia. Así, desde la formación de la IEUCB la perspectiva escatológica que se adoptó, fue la perspectiva pretribucionalista premilenarista dispensacional de acuerdo a una hermenéutica “histórica gramático literal.” Principalmente esto se debió al hecho de que la mayoría de los primeros misioneros afiliados a “Gospel Mission of America” (GMSA) en Chile y en lo que vino a ser UCB, tenían esta convicción. Así, el hno. Jorge Black (1907-2009) uno de los primeros actores y testigos del comienzo de la obra en Chile el año 1944, cuatro años antes, se había graduado del famoso Instituto Bíblico de Filadelfia, Pennsylvania EE.UU., fundado el año 1914 por Cyrus Ingerson Scofield (1843-1921). Uno de los fundadores del dispensacionalismo clásico. Lugar donde también estudiaron otros misioneros como Inés de Strong, Enrique Tobelmann y Ruth Fissel (su señora), entre otros. Varios otros fueron educados en el Instituto bíblico Moody —como el hno. Nell Eggleston, Eduardo y Ruth Moore entre otro— fundado por el famoso evangelista del siglo pasado Dwight Lyman Moody (1837-1899) otro de los Institutos Bíblicos en los EE.UU., que promovieron el dispensacionalismo en aquellos días. Sin embargo, la consolidación de esta perspectiva en UCB vino principalmente de la mano del hno. Cliff Truman, profesor y director de ICAT en su momento, quien egresó del famoso “Dallas Theological Seminary” (DTS), fundado por uno de los padres del fundamentalismo americano y padre del dispensacionalismo “moderno”, Lewis Sperry Chafer (1871-1952). Por supuesto, como UCB Lautaro reconocemos las falencias del dispensacionalismo clásico, sin embargo, estamos de acuerdo —y creemos es lo que enseña la Biblia— es el sine qua non del dispensacionalismo bíblico, esto es, la evidente distinción que hacen las Escrituras entre Israel y la iglesia. El reino literal milenial de Cristo y la gloria de Dios como el eje rector del plan eterno de Dios.
+								</blockquote>
+							</div>
+						</div>
+						<br>
+						<div  class="row ">
+							<div class="col-md-3"></div><!--Espacio-->
+							<div style="" class="col-md-6 title text-center single-blog">
+								<div class="thumb">
+								<img class="col img-fluid image-responsive imagen" src="img/img7.jpg" title="Primeros templos UCB en la Araucanía.">			
+								<br><br><p class="">Hermano Cliff Truman con algunos estudiantes</p>			
+								</div>
+							</div>
+							<div class="col-md-3"></div><!--Espacio-->
+						</div>
+					
+					</div>
+
+
+
+
+					<div class="section-top-border col-md-12 mt-sm-30 typo-sec">
+					<h3 class="mb-20">Conclusión</h3>
+						<div class="">
+							<p>Muchas iglesias hoy hablan de su “visión”, sus “valores” o su “misión” como lo hace una empresa secular. Sin embargo, nosotros como UCB Lautaro creemos que una iglesia bíblica debe manifestar claramente lo que cree, pero también, algo de sus énfasis teológicos que revelan una cuestión necesaria y fundamental en el día de hoy, esto es, la identidad teológica. Aquí, como hemos visto y explicado brevemente, nuestros énfasis claramente revelan en parte nuestra identidad teológica que revelan cual es nuestro norte doctrinal en dichos aspectos. </p>
+						</div>
+					</div>
+
+
 
 					
-					<div class="container">
-
-						<div class="row">
-
-							<div class="col reservation-left">
-								<h3>III.	La UCB Lautaro se adhiere de manera general a la perspectiva calvinista  </h3>
-								
-								<p style="font-size: 17px; color:black;" class="text">	
-								Tarde o temprano el creyente —que va madurar en su fe— debe enfrentarse a la cuestión del libre albedrío. Mayor aun, si se trata de una conflación de iglesias donde el consenso  se torna un tema difícil. Pues, ¿fue la IEUCB una corporación calvinista desde sus inicios? ¿Fue una corporación arminiana de sus comienzos? Por supuesto, la IEUCB tuvo una infancia, y temas como estos no fueron del interés de aquellos días y tampoco estaban en boga. Sin embargo, esto no quiere decir que  hoy seamos ajenos a estos temas.  En  efecto, fue el año 2016 que en la  “Conferencia Pastoral de la UCB” del  17-20 de Octubre (Santiago, Chile)  del mismo año, el  Pastor Matt Postiff (Ph.D., Th.M.) debió abordar este tema entre nosotros  (“La Doctrina Bíblica de la Salvación, Manteniendo la Verdad y la Unidad”) debido a los propios roces que temáticas como esta trajeron. Así, algunas conclusiones que replicamos aquí y que como UCB Lautaro creemos son, primero, UCB Lautaro rechaza las conclusiones pelagianistas y semipelagianistas acerca del hombre como también,  las ideas del híper-calvinismo. Sin embargo,  y esto hay que aclarar, el híper calvinismo es  diferente al “calvinismo”; así,  UCB Lautaro no tiene problemas con el calvinismo cuatro puntista (común en nuestro medio también), pero se adhiere a las convicciones calvinistas (“Depravación total”, “elección incondicional”, “expiación particular”, “gracia irresistible”, y “perseverancia de los santos”) tal cual fueron originalmente expuestas en los Cánones de Dorf el año  1918s, en respuesta a las críticas de los “remostrantes” (seguidores de Arminio), pero también, como un cortafuego a los nuevos focos del pelagianismo  y el semipelagianismo de aquellos días condenados por los concilios preliminares de la iglesia (Cartago 416 d.C.; Éfeso 431 d.C.).  Sin embargo, —y a modo de aclaración— queremos dejar claro que no somos salvos por creer en los “cinco puntos del calvinismo,” (doctrinas de la Gracia) somos salvos por creer en Cristo y es el evangelio el que debe ser promovido; por supuesto,  una correcta  soteriología  deriva en un correcto evangelismo y eso es lo que estamos convencidos debemos  cuidar y promover.     </p>
-
-								<br>
-
-							</div>
-
-						</div>
-						<div class="row">
-							<div class="col-md-3"></div>
-							<div class="col-md-6 single-blog thumb center">
-								<img class=" img-fluid image-responsive imagen" src="img/img6.jpg" title="Primeros templos UCB en la Araucanía">
-								
-							</div>
-						</div>
-					</div>
-
-					<div class="container">
-
-						<div class="row">
-
-							<div class="col reservation-left">
-								<h3>IV.	La UCB Lautaro tiene una escatología pretribucionalista premilenarista dispensacional   </h3>
-								
-								<p style="font-size: 17px; color:black;" class="text">	
-								¿Qué quiere decir una escatología pretribucionalista premilenarista dispensacional? Principalmente, que creemos en un arrebatamiento pre-tribucional (antes de la tribulación), en un reino literal milenial de Cristo en la tierra, y en las distinción que  las Escrituras hacen de Israel y la iglesia. Así, desde la formación de la IEUCB la perspectiva escatológica que se adoptó, fue la perspectiva pretribucionalista premilenarista dispensacional de acuerdo a una hermenéutica “histórica gramático literal.” Principalmente esto se debió al hecho de que la mayoría de los primeros misioneros afiliados a “Gospel Mission of America” (GMSA)  en Chile y en lo que vino a ser UCB, tenían esta convicción. Así, el hno. Jorge Black (1907-2009) uno de los primeros actores y testigos  del comienzo de la obra en Chile el año 1944, cuatro años antes, se había graduado del famoso Instituto Bíblico de Filadelfia, Pennsylvania EE.UU., fundado el año 1914 por Cyrus Ingerson Scofield (1843-1921). Uno de los fundadores del dispensacionalismo clásico. Lugar donde también estudiaron otros misioneros como Inés de Strong, Enrique Tobelmann y Ruth Fissel (su señora), entre otros.  Varios otros fueron educados en el Instituto bíblico Moody —como el hno. Nell Eggleston, Eduardo y Ruth Moore entre otro— fundado por el famoso evangelista del siglo pasado Dwight Lyman Moody (1837-1899) otro de los Institutos Bíblicos en los EE.UU.,  que promovieron el dispensacionalismo en aquellos días. Sin embargo, la consolidación de esta perspectiva en UCB vino principalmente de la mano del hno. Cliff Truman, profesor y director de ICAT en su momento, quien egresó del famoso “Dallas Theological Seminary” (DTS), fundado por uno de los padres del fundamentalismo americano y padre del dispensacionalismo “moderno”, Lewis Sperry Chafer (1871-1952).  Por supuesto, como UCB Lautaro reconocemos las falencias del dispensacionalismo clásico,  sin embargo, estamos de acuerdo —y creemos es lo que enseña la Biblia— es el sine qua non del dispensacionalismo bíblico, esto es, la evidente distinción que hacen las Escrituras entre Israel y la iglesia. El reino literal milenial de Cristo  y la gloria de Dios como  el eje rector del plan eterno de Dios.      </p>
-
-								<br>
-
-							</div>
-
-						</div>
-						<div class="row">
-							<div class="col-md-3"></div>
-							<div class="col-md-6 single-blog thumb center">
-								<img class=" img-fluid image-responsive imagen" src="img/img7.jpg" title="Hermano Cliff Truman con algunos estudiantes">
-								<p class="text pt-20">Hermano Cliff Truman con algunos estudiantes</p>
-							</div>
-						</div>
-					</div>
-
-
-					<div class="container">
-						<div class="row">
-							<div class="col reservation-left">
-								<h3>Conclusión</h3>
-								<p style="font-size: 17px; color:black;" class="text">	
-									Muchas iglesias hoy hablan de su “visión”, sus “valores” o su “misión” como lo hace una empresa secular. Sin embargo, nosotros como UCB Lautaro creemos que una iglesia bíblica debe manifestar claramente lo que cree, pero también, algo de sus énfasis teológicos que revelan una cuestión necesaria y fundamental en el día de hoy, esto es, la identidad teológica. Aquí, como hemos visto y explicado brevemente, nuestros énfasis  claramente revelan en parte nuestra identidad teológica que revelan cual es nuestro norte doctrinal en dichos aspectos.  
-								<br>
-							</div>
-						</div>
-					</div>
-					<br><br>
-					<div class="container">
-						<div class="row">
-						
-								<h5 class="text">Datos bibliográficos</h5><br>
-								<p class="text pt-20">Bluthardt, Manfred 2014. Un análisis necesario, al decisionismo evangelical.  URL:
- 							  	http://opticabiblica.blogspot.com/2014/04/un-analisis-necesario-al-decisionismo.html </p>
-								<p class="text pt-20">Cabrera, Pedro 2010. Misioneros Guillermo Strong Patterson, Elizabeth Tomkins. Fundadores de la Misión Unión Centros Bíblicos, 1923.</p>
-								<p class="text pt-20">Departamento de Educación Cristiana de la UCB, 1993. Tributo al Señor, Unión de Centros Bíblicos, 70 años en Chile 1923-1993.</p>
-
-								<p class="text pt-20">Dever, Mark. & Alexander, Paul 2008. La iglesia deliberante: edificando su ministerio en el evangelio. Graham, NC: Faro de gracia.</p>
-								<p class="text pt-20">GMSA [s/a].Historia de GMSA. Internet URL: https://www.gmsa.org/history/</p>
-								<p class="text pt-20">Postiff, Matt 2016. La Doctrina Bíblica de la Salvación. Manteniendo la Verdad y la Unidad. Traducido con permiso, versión en Español por el pastor David Díaz. Convención  IEUCB Pirque, Santiago,  2016.</p>
-
-								<p class="text pt-20">Mondaca, Miguel   2011.  Nuestra Identidad. Convención  IEUCB Licán Ray  2011.</p>
-								<p class="text pt-20">Svensson,  Manfred 2013. Fundamentalismo: por qué importa describirlo bien. Internet URL: 
-								http://estudiosevangelicos.org/fundamentalismo-por-que-importa-describirlo-bien/
-								</p>
-					</div>
-
-			</section>
-
-
-
-
-			<!-- IMAGENES -->
-			<section class="home-about-area section-gap">
-				<div class="container">
-					
-					<!--VISOR DE LA IMAGEN-->
-						<div id="mimodal" class="modal fade" role="dialog">
-						  <div class="modal-dialog">
-						      <center><img id="mi_img" src="" class="modal-content recibir-imagen"></center>
-						      <center>     <div class="modal-footer"><p id="txt"><strong class="texto-imagen"></strong></p></div>
-						  	  </center>
-						  </div>
-						</div>
-						<!--CIERRA VISOR DE IMAGEN-->
-
 				</div>
 			</section>
-			<!-- End IMAGENES -->		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-				
+						
 
 			<!-- start footer Area -->		
 			<footer class="footer-area">
@@ -366,13 +309,14 @@
 				<div class="footer-bottom-wrap">
 					<div class="container">
 						<div class="row footer-bottom d-flex justify-content-between align-items-center">
-							<p class="col-lg-8 col-mdcol-sm-6 -6 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright 2019 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+							<p class="col-lg-8 col-mdcol-sm-6 -6 footer-text m-0">
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								Copyright 2019 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a target="_blank">Colorlib</a><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							</p>
 							<ul class="col-lg-4 col-mdcol-sm-6 -6 social-icons text-right">
 	                            <li><a href="https://www.facebook.com/ieucblautaro/"><i class="fa fa-facebook"></i></a></li>
 	                            <li><a href="https://www.youtube.com/channel/UCkqSSRMCHBpBLnQJ8UZ3U8A"><i class="fa fa-youtube"></i></a></li>
-          
+	                            <li><a href="#top"><i class="fa fa-angle-up"></i></a></li>
 	                        </ul>
 						</div>						
 					</div>
@@ -392,15 +336,10 @@ Copyright 2019 All rights reserved | This template is made with <i class="fa fa-
 			<script src="js/owl.carousel.min.js"></script>			
             <script src="js/isotope.pkgd.min.js"></script>								
 			<script src="js/mail-script.js"></script>	
-			<script src="js/main.js"></script>	
+
 
 			<script src="js/imagen.js"></script>
-
 			<script type="text/javascript" src="caleandar-master/js/caleandar.js"></script>
     		<script type="text/javascript" src="caleandar-master/js/demo.js"></script>
-
-    		
-
-
 		</body>
 	</html>
