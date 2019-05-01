@@ -58,16 +58,16 @@ var events = [
   {'Date': new Date(2019, 4-1, 20), 'Title': 'Taller de Escatología','Link':'http://ieucblautaro.cl'},
   
   //MAYO
-  {'Date': new Date(2019, 4-1, 5), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
-  {'Date': new Date(2019, 4-1, 12), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
-  {'Date': new Date(2019, 4-1, 19), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
-  {'Date': new Date(2019, 4-1, 26), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 5-1, 5), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 5-1, 12), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 5-1, 19), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 5-1, 26), 'Title': 'Escuela dominical 10:30 hrs.','Link':'http://ieucblautaro.cl'},
   
-  {'Date': new Date(2019, 4-1, 1), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
-  {'Date': new Date(2019, 4-1, 8), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
-  {'Date': new Date(2019, 4-1, 15), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
-  {'Date': new Date(2019, 4-1, 22), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
-  {'Date': new Date(2019, 4-1, 29), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 5-1, 1), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 5-1, 8), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 5-1, 15), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 5-1, 22), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  {'Date': new Date(2019, 5-1, 29), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
  
 ];
 var settings = {};
