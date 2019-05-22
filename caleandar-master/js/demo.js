@@ -68,6 +68,8 @@ var events = [
   {'Date': new Date(2019, 5-1, 15), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
   {'Date': new Date(2019, 5-1, 22), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
   {'Date': new Date(2019, 5-1, 29), 'Title': 'Culto de oración  20:00 hrs.','Link':'http://ieucblautaro.cl'},
+  
+  {'Date': new Date(2019, 5-1, 25), 'Title': 'Taller de escatología  15:00 hrs.','Link':'http://ieucblautaro.cl'},
  
 ];
 var settings = {};
