@@ -1,0 +1,48 @@
+	* {margin: 0; padding: 0;}
+	.selected:hover{
+		transition: 0.2s;
+		color:blue;
+
+	}
+	.divVideo{
+		width:550px;
+		height: 305px;
+	}
+	.selected{
+		font-size: 18px;
+	}
+	.videoImg{
+		width: 150px;
+		height: 90px;
+	}
+
+	.div2{	
+		width: 10px;		
+	}
+	.scroll{
+		overflow-y: scroll;
+		height: 315px;
+	}
+	ul {
+	  list-style-type: none;
+	  width: 100%;
+	}
+
+	h3 {
+	  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+	}
+
+
+	li p {
+	  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+	}
+
+	li {
+		margin-left: -15px;
+	  padding: 10px;
+	  overflow: auto;
+	}
+
+	li:hover {
+	  background: #eee;
+	  cursor: pointe
